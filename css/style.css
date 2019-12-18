@@ -1,8 +1,24 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+#contenedor {
+    width: 79%;
+    background-color: blue;
+    margin: 0 auto;
+}
+
+nav {
+    display: flex;
+}
+
 #nav_color
 {
     color: red;
 }
-.contenedor{
+
+.contenedor {
     position: relative;
     display: inline-block;
     text-align: center;
