@@ -3,11 +3,6 @@
     margin: 0px;
     box-sizing: border-box;
 }
-@font-face {
-    font-family: HarmoniaSansW01-Regular;
-    src: url();
-    font-family: HarmoniaSansW01-Bold;
-}
 
 #contenedor {
     width: 100%;
@@ -40,11 +35,11 @@ justify-content: space-between;
 
 #nav_redes {
     color: #1A83B0;
-    font-size: 25px;
+    font-size: 30px;
 }
 #nav_search {
     color: #1A83B0;
-    font-size: 25px;	
+    font-size: 30px;	
     transform: rotate(70deg);
 }
 
@@ -72,15 +67,16 @@ justify-content: space-between;
 }
 #banner_texto {
     position: absolute;
-    top: 30%;
+    top: 43%;
+    left: 8%;
 
 }
 #drupal {
-    height: 81px;	
+    height: 52px;	
     width: 234px;	
     color: #FFFFFF;	
     font-family: HarmoniaSansW01-Bold;	
-    font-size: 72px;	
+    font-size: 4.9vw;	
     line-height: 2px;	
     text-align: center;
 }
@@ -89,7 +85,7 @@ justify-content: space-between;
     width: 220px;	
     color: #FFFFFF;	
     font-family: HarmoniaSansW01-Regular;	
-    font-size: 45px;	
+    font-size: 3.2vw;	
     line-height: 55px;	
     text-align: center;
 }
@@ -97,18 +93,156 @@ justify-content: space-between;
     height: 116px;	
     width: 450px;	
     color: #FFFFFF;	
-    font-family: HarmoniaSansW01-Regular;	
+    font-family: HarmoniaSansW01-Regular;
+    text-align: left;	
     font-size: 24px;	
     line-height: 29px;
 }
-.contenedor {
+
+#que_es_drupal {
+    height: 65px;	
+    color: #5B5B5B;	
+    font-family: HarmoniaSansW01-Regular;	
+    font-size: 50px;	
+    line-height: 61px;
+    margin-top: 3vw;
+    margin-bottom: 3vw;
+
+}
+#section_que_es_drupal {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    width: 80%;
+    margin-left: 10%;
+    margin-bottom: 3vw;
+}
+.article_que_es_drupal {
+    
     position: relative;
     display: inline-block;
     text-align: center;
+    
+}
+.fondo_que_es_drupal {
+}
+.contenido_que_es_drupal {
+    position: absolute;
+    top: 10%;
+    text-align: left;
+    margin: 2rem;
+    
+}
+#article_porque_drupal {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    width: 100%;
 }
 
-#texto-encima{
+#contenido_porque_drupal{
     position: absolute;
-    top: 50%;
-    left: 50%;
+    top: 3vw;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    justify-content: center;
+    text-align: center;
+}
+
+#por_que_drupal {
+    height: 80px;	
+    width: 537px;	
+    color: #FFFFFF;	
+    font-family: HarmoniaSansW01-Regular;
+    margin: 0 auto;	
+    margin-bottom: 2vw;
+    font-size: 50px;	
+    line-height: 61px;	
+    text-align: center;
+}
+
+#texto_porque_drupal {
+    height: 63px;	
+    width: 811px;	
+    color: #FFFFFF;	
+    font-family: HarmoniaSansW01-Regular;	
+    font-size: 24px;	
+    line-height: 29px;	
+    text-align: center;
+    margin: 0 auto;	
+    margin-bottom: 3vw;
+    
+}
+
+#prueba_drupal {
+    height: 60px;	
+    width: 172px;	
+    color: #FFFFFF;	
+    font-family: HarmoniaSansW01-Bold;	
+    font-size: 25px;	
+    line-height: 30px;
+    box-sizing: border-box;	
+    height: 63px;	
+    width: 241px;	
+    border: 3px solid #FFFFFF;	
+    border-radius: 10px;
+    padding-top: 12px;
+    top: 3vw;
+    margin: 0 auto;	
+}
+
+#section_noticias {
+width: 86%;
+margin-left: 7%;
+}
+#noticias {
+    height: 60px;	
+    width: 180px;	
+    color: #5B5B5B;	
+    font-family: HarmoniaSansW01-Regular;	
+    font-size: 50px;	
+    margin-top: 3vw;
+    line-height: 61px;
+}
+
+#section_noticias_contenido {
+    margin-top: 2vw;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: left;
+    background-color: blue;
+}
+
+.titulos_noticias {
+    color: #000000;	
+    font-family: HarmoniaSansW01-Bold;	
+    font-size: 25px;	
+    line-height: 30px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.texto_noticias {
+    color: #5D5D5D;	
+    font-family: HarmoniaSansW01-Regular;	
+    font-size: 20px;	
+    line-height: 24px;
+}
+
+#line-4-copy-3 {
+    box-sizing: border-box;	
+    height: 24vw;	
+    width: 1px;	
+    border: 0.7px 
+    solid #979797;
+}
+
+.contenedor_lateral_noticias {
+    display: flex;
+    flex-direction: row;
+    width: 80%;
 }
