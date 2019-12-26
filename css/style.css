@@ -36,17 +36,18 @@ justify-content: space-between;
 #nav_elementos_redes {
     display: flex;
     flex-direction: row;
+    align-items: center;
     width: 28%;
     justify-content: space-around;
     }
 
 #nav_redes {
     color: #1A83B0;
-    font-size: 30px;
+    font-size: 1.7vw;
 }
 #nav_search {
     color: #1A83B0;
-    font-size: 30px;	
+    font-size: 1.7vw;	
     transform: rotate(70deg);
 }
 
@@ -83,8 +84,8 @@ hr {
 }
 #banner_texto {
     position: absolute;
-    top: 43%;
-    left: 8%;
+    top: 12.5vw;
+    left: 8vw;
 
 }
 #drupal {
@@ -93,26 +94,25 @@ hr {
     color: #FFFFFF;	
     font-family: HarmoniaSansW01-Bold;	
     font-size: 4.9vw;	
-    line-height: 2px;	
-    text-align: center;
+    line-height: 0vw;	
+    text-align: left;
 }
-#colombia {
-    height: 55px;	
+#colombia {	
     width: 220px;	
     color: #FFFFFF;	
     font-family: HarmoniaSansW01-Regular;	
     font-size: 3.2vw;	
     line-height: 55px;	
-    text-align: center;
+    text-align: left;
 }
 #banner_ipsum {
     height: 116px;	
-    width: 450px;	
+    width: 24vw;	
     color: #FFFFFF;	
     font-family: HarmoniaSansW01-Regular;
     text-align: left;	
-    font-size: 24px;	
-    line-height: 29px;
+    font-size: 1.3vw;
+    line-height: 1.6vw;
 }
 
 #que_es_drupal {
@@ -169,44 +169,38 @@ hr {
 }
 
 #por_que_drupal {
-    height: 80px;	
-    width: 537px;	
     color: #FFFFFF;	
     font-family: HarmoniaSansW01-Regular;
     margin: 0 auto;	
     margin-bottom: 2vw;
-    font-size: 50px;	
+    font-size: 3vw;
     line-height: 61px;	
     text-align: center;
 }
 
 #texto_porque_drupal {
     height: 63px;	
-    width: 811px;	
+    width: 43%;	
     color: #FFFFFF;	
     font-family: HarmoniaSansW01-Regular;	
-    font-size: 24px;	
-    line-height: 29px;	
+    font-size: 1.3vw;	
+    line-height: 1.6vw;
     text-align: center;
     margin: 0 auto;	
-    margin-bottom: 3vw;
+    margin-bottom: 3%;
     
 }
 
 #prueba_drupal {
-    height: 60px;	
-    width: 172px;	
     color: #FFFFFF;	
-    font-family: HarmoniaSansW01-Bold;	
-    font-size: 25px;	
-    line-height: 30px;
+    font-family: HarmoniaSansW01-Bold;
+    font-size: 1.3vw;	
     box-sizing: border-box;	
-    height: 63px;	
-    width: 241px;	
+    height: 3.1vw;
+    width: 14%;
     border: 3px solid #FFFFFF;	
     border-radius: 10px;
-    padding-top: 12px;
-    top: 3vw;
+    padding-top: 0.6vw;
     margin: 0 auto;	
 }
 
@@ -214,6 +208,25 @@ hr {
 width: 86%;
 margin-left: 7%;
 }
+
+#section_noticias {
+ display: grid;
+ grid-gap: 20px;
+ grid-template-columns: 1fr 1fr;
+ grid-template-rows: 1fr  1fr;
+ margin-top: 2vw;
+ width: 100%;
+ text-align: left;
+}
+
+#noticias_section_1 {
+    grid-row-start: 1;
+    grid-row-end: 3;
+    border-right: 1px solid #006181;
+    margin-right: 1vw;
+}
+
+/*Sección noticias*/
 #noticias {
     height: 60px;	
     width: 180px;	
@@ -266,13 +279,29 @@ margin-left: 7%;
 .contenedor_lateral_noticias {
     display: flex;
     flex-direction: row;
-    width: 80%;
-    background-color: chartreuse;
+    justify-content: right;
+    border-bottom: 1px solid #006181;
+    padding-bottom: 2vw;
+}
+
+.contenedor_lateral_noticias_2 {
+    display: flex;
+    flex-direction: row;
     justify-content: right;
 }
 
+.imagen_hola {
+    width: 94%;
+    border-radius: 12px;
+}
+
+.imagen_lateral {
+    width: 94%;
+    border-radius: 12px;
+}
+
 #article_noticias {
-    width: 40%;
+    width: 200px
 }
 #line-4-copy-4 {
     box-sizing: border-box;	
@@ -369,8 +398,8 @@ margin-left: 7%;
     display: grid;
     width: 86%;
     margin-left: 8%;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-    grid-gap: 20px;
+    justify-items: center;
+    grid-template-columns: repeat(6,1fr);
 }
 #imagen_apoya {
     position: relative;
@@ -471,4 +500,5 @@ margin-left: 7%;
 #copyright {
     margin-top: 1vw;
     margin-bottom: 2vw;
+    font-family: HarmoniaSansW01-Regular;
 }
