@@ -24,6 +24,8 @@ nav {
     padding-left: 82px;
     padding-right: 82px;
     padding-top: 6px;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.18);
+    position: relative;
 
 }
 #nav_elementos {
@@ -44,6 +46,7 @@ justify-content: space-between;
 #nav_redes {
     color: #1A83B0;
     font-size: 1.7vw;
+    align-self: center;
 }
 #nav_search {
     color: #1A83B0;
@@ -76,7 +79,6 @@ hr {
     solid #979797;}
 
 #banner {
-    height: 553px;	
     width: 100%;
     position: relative;
     display: inline-block;
@@ -101,8 +103,7 @@ hr {
     width: 220px;	
     color: #FFFFFF;	
     font-family: HarmoniaSansW01-Regular;	
-    font-size: 3.2vw;	
-    line-height: 55px;	
+    font-size: 3.2vw;		
     text-align: left;
 }
 #banner_ipsum {
@@ -116,11 +117,9 @@ hr {
 }
 
 #que_es_drupal {
-    height: 65px;	
     color: #5B5B5B;	
     font-family: HarmoniaSansW01-Regular;	
-    font-size: 50px;	
-    line-height: 61px;
+    font-size: 3.4vw;
     margin-top: 3vw;
     margin-bottom: 3vw;
 
@@ -139,16 +138,26 @@ hr {
     position: relative;
     display: inline-block;
     text-align: center;
+    width: 17vw;
     
 }
+
 .fondo_que_es_drupal {
+    width: 100%;
 }
+
+
 .contenido_que_es_drupal {
     position: absolute;
     top: 10%;
     text-align: left;
     margin: 2rem;
+    width: 100%;
     
+}
+
+.contenido_que_es_drupal .imagenes {
+ width: 3.5vw;
 }
 #article_porque_drupal {
     position: relative;
@@ -173,13 +182,11 @@ hr {
     font-family: HarmoniaSansW01-Regular;
     margin: 0 auto;	
     margin-bottom: 2vw;
-    font-size: 3vw;
-    line-height: 61px;	
+    font-size: 3vw;	
     text-align: center;
 }
 
 #texto_porque_drupal {
-    height: 63px;	
     width: 43%;	
     color: #FFFFFF;	
     font-family: HarmoniaSansW01-Regular;	
@@ -209,6 +216,7 @@ width: 86%;
 margin-left: 7%;
 }
 
+/*Sección noticias*/
 #section_noticias {
  display: grid;
  grid-gap: 20px;
@@ -224,9 +232,10 @@ margin-left: 7%;
     grid-row-end: 3;
     border-right: 1px solid #006181;
     margin-right: 1vw;
+    display: flex;
+    flex-direction: column;
 }
 
-/*Sección noticias*/
 #noticias {
     height: 60px;	
     width: 180px;	
@@ -235,6 +244,16 @@ margin-left: 7%;
     font-size: 50px;	
     margin-top: 3vw;
     line-height: 61px;
+}
+
+#gota {
+    position: relative;
+    right: 1.5vw;
+    top: 0.7vw;
+
+   
+    
+
 }
 
 #section_noticias_contenido {
@@ -287,7 +306,6 @@ margin-left: 7%;
 .contenedor_lateral_noticias_2 {
     display: flex;
     flex-direction: row;
-    justify-content: right;
 }
 
 .imagen_hola {
@@ -296,7 +314,7 @@ margin-left: 7%;
 }
 
 .imagen_lateral {
-    width: 94%;
+    width: 90%;
     border-radius: 12px;
 }
 
@@ -401,6 +419,11 @@ margin-left: 7%;
     justify-items: center;
     grid-template-columns: repeat(6,1fr);
 }
+
+.logos {
+    width: 100%;
+}
+
 #imagen_apoya {
     position: relative;
     display: inline-block;
@@ -501,4 +524,70 @@ margin-left: 7%;
     margin-top: 1vw;
     margin-bottom: 2vw;
     font-family: HarmoniaSansW01-Regular;
+}
+
+/*PAGINA EVENTOS*/
+
+
+#header_2 {
+    
+    position: relative;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+}
+
+#nav_2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 82px;
+    padding-right: 82px;
+    padding-top: 6px;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.18);
+    position: absolute;
+    width: 100%;
+    margin-top: 0px;
+    z-index: 2;
+    background-color: white;
+    top: 0px;
+}
+
+#breadhome {
+    position: absolute;
+    top: 95px;
+    left: 4vw;
+    color: #B95800;	
+    font-family: HarmoniaSansW01-Regular;	
+    font-size: 16px;	
+    line-height: 19px;
+}
+
+#titulo_banner {
+    color: #5B5B5B;	
+    font-family: HarmoniaSansW01-Regular;	
+    font-size: 3vw;	
+    margin-right: 2vw;
+    
+}
+
+#texto_banner {
+    color: #6D7278;	
+    font-family: HarmoniaSansW01-Regular;	
+    font-size: 1.1vw;	
+    line-height: 24px;
+    border-left: 1px solid #BABABA;
+    padding: 0.8vw;
+    padding-left: 2vw;
+}
+
+#contenido_banner {
+    width: 36%;
+    text-align: left;
+    position: absolute;
+    top: 12vw;
+    display: flex;
+    flex-direction: row;
+    margin-left: 13vw;
 }
