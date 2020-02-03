@@ -68,6 +68,14 @@
     }
 }
 
+@media screen and(max-width:"767px") {
+    #contenido_desarrollador {
+        font-size: 6vw;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+}
+
 .desarrollador_tecnicos {
     background-color: #F9F9F9;
     margin-top: 1.5vw;
@@ -77,6 +85,12 @@
 }
 .desarrollador_referencia {
     margin-left: 11vw;
+}
+
+@media screen and(max-width:"767px") {
+    .desarrollador_referencia {
+        margin-left: 0vw;
+    }
 }
 #contenido_desarrollador_2 {
     color: #038ABC;	

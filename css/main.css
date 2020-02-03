@@ -607,6 +607,12 @@ hr {
     text-decoration: none;
     color: #038ABC; }
 
+@media screen and (max-width: 767px) {
+  #contenido_desarrollador {
+    font-size: 6vw;
+    flex-direction: column;
+    flex-wrap: wrap; } }
+
 .desarrollador_tecnicos {
   background-color: #F9F9F9;
   margin-top: 1.5vw;
@@ -616,6 +622,10 @@ hr {
 
 .desarrollador_referencia {
   margin-left: 11vw; }
+
+@media screen and (max-width: 767px) {
+  .desarrollador_referencia {
+    margin-left: 0vw; } }
 
 #contenido_desarrollador_2 {
   color: #038ABC;
@@ -2338,6 +2348,27 @@ ul {
   width: 60%;
   margin-top: 0.9vw; }
 
+@media screen and (max-width: 767px) {
+  .empresarial {
+    text-align: left;
+    margin-left: 0px;
+    margin-top: 1.7vw; }
+  .empresarial_fecha {
+    font-size: 4.5vw;
+    margin-left: 5.5%; }
+  .empresarial_titulo {
+    width: 80%;
+    font-size: 7vw;
+    line-height: 7vw;
+    margin-bottom: 3vw;
+    margin-left: 5.5%; }
+  .empresarial_texto {
+    font-size: 20px;
+    line-height: 25px;
+    width: 86%;
+    margin-top: 0.9vw;
+    margin-left: 5.5%; } }
+
 .line-3-empresarial {
   height: 0.5px;
   width: 360px;
@@ -2346,12 +2377,24 @@ ul {
   margin-top: 1.7vw;
   margin-left: 17%; }
 
+@media screen and (max-width: 767px) {
+  .line-3-empresarial {
+    width: 42vw;
+    margin-left: 30%;
+    margin-top: 5vw;
+    margin-bottom: 5vw; } }
+
 .empresarial_contenedor {
   display: flex;
   flex-direction: row;
   justify-content: left;
   margin-top: 1.8vw;
   margin-left: 5.5%; }
+
+@media screen and (max-width: 767px) {
+  .empresarial_contenedor {
+    display: flex;
+    flex-direction: column; } }
 
 .empresarial_redes {
   display: flex;
@@ -2364,6 +2407,11 @@ ul {
 .empresarial_aside {
   width: 38%;
   margin-left: 1vw; }
+
+@media screen and (max-width: 767px) {
+  .empresarial_aside {
+    width: 90%;
+    margin-left: 0px; } }
 
 #nav_redes_2 {
   color: #1A83B0;
@@ -2387,6 +2435,13 @@ ul {
   margin-left: 1.4vw;
   width: 56%; }
 
+@media screen and (max-width: 767px) {
+  .empresarial_parrafo {
+    display: flex;
+    flex-direction: column;
+    font-size: 4vw;
+    width: 60%; } }
+
 .empresarial_imagen {
   margin-top: 0.8vw;
   margin-bottom: 0.8vw; }
@@ -2397,24 +2452,35 @@ ul {
   font-size: 30px;
   line-height: 37px; }
 
+@media screen and (max-width: 767px) {
+  .empresarial_autor {
+    font-size: 4.5vw; } }
+
 .line-2 {
   box-sizing: border-box;
   height: 0.5px;
   width: 360px;
-  border: 1.6px solid #F7B500;
+  border: 1.6px solid #f7b500;
   border-radius: 4px;
   margin-top: 3vw;
   margin-left: 5.5%; }
+  @media screen and (max-width: 767px) {
+    .line-2 {
+      width: 47vw; } }
 
 .faqs_texto {
   width: 42%;
   margin-left: 5.5%;
   margin-top: 1vw;
-  color: #7F7F7F;
+  color: #7f7f7f;
   text-align: left;
   font-family: HarmoniaSansW01-Regular;
   font-size: 18px;
   line-height: 22px; }
+  @media screen and (max-width: 767px) {
+    .faqs_texto {
+      width: 90%;
+      font-size: 6vw; } }
 
 .faqs {
   display: flex;
@@ -2422,21 +2488,33 @@ ul {
   margin-left: 5.5%;
   margin-top: 2vw;
   margin-bottom: 2vw; }
+  @media screen and (max-width: 767px) {
+    .faqs {
+      display: flex;
+      flex-direction: column; } }
 
 .faqs_titulo {
-  color: #5B5B5B;
+  color: #5b5b5b;
   font-family: HarmoniaSansW01-Regular;
   font-size: 50px;
   line-height: 45px;
   text-align: left; }
+  @media screen and (max-width: 767px) {
+    .faqs_titulo {
+      font-size: 6vw; } }
 
 .faqs_titulo_2 {
-  color: #5B5B5B;
+  color: #5b5b5b;
   font-family: HarmoniaSansW01-Regular;
   font-size: 50px;
   margin-left: 5.5%;
   line-height: 45px;
   text-align: left; }
+  @media screen and (max-width: 767px) {
+    .faqs_titulo_2 {
+      font-size: 7vw;
+      margin-top: 8vw;
+      margin-bottom: 8vw; } }
 
 .faqs_contenedor_preguntas {
   display: flex;
@@ -2448,10 +2526,10 @@ ul {
   box-sizing: border-box;
   height: 50px;
   width: 607px;
-  border: 2px solid #0084B3;
+  border: 2px solid #0084b3;
   border-radius: 8px;
   box-shadow: 0 2px 4px;
-  color: #7F7F7F;
+  color: #7f7f7f;
   font-family: HarmoniaSansW01-Regular;
   font-size: 18px;
   line-height: 22px;
@@ -2459,15 +2537,38 @@ ul {
   margin-bottom: 1vw;
   margin-left: 3.5vw; }
 
+@media screen and (max-width: 767px) {
+  .faqs_preguntas {
+    height: 24vw;
+    width: 92%;
+    font-size: 4.7vw;
+    line-height: 7vw;
+    margin-top: 6vw;
+    margin-bottom: 1vw;
+    margin-left: 0vw;
+    padding-left: 5vw;
+    padding-top: 4vw;
+    text-align: left; } }
+
 .faqs_otras_preguntas {
   display: flex;
   margin-left: 5.5%;
   margin-top: 1.7vw;
   margin-bottom: 0.7vw; }
 
+@media screen and (max-width: 767px) {
+  .faqs_otras_preguntas {
+    flex-direction: column; } }
+
 .faqs_mas {
   font-size: 1.7vw;
-  color: #0084B3; }
+  color: #0084b3; }
+
+@media screen and (max-width: 767px) {
+  .faqs_mas {
+    font-size: 10vw;
+    width: 26%;
+    margin-top: 4vw; } }
 
 .faqs_articulo {
   display: flex;
@@ -2475,26 +2576,46 @@ ul {
   box-sizing: border-box;
   height: 330px;
   width: 620px;
-  border: 2px solid #0084B3;
+  border: 2px solid #0084b3;
   border-radius: 8px;
   text-align: left;
   padding: 1.2vw 2.1vw 0px;
   margin-right: 2.2vw;
   background-color: #fff; }
 
+@media screen and (max-width: 767px) {
+  .faqs_articulo {
+    width: 92%;
+    height: auto;
+    margin-bottom: 5vw;
+    padding-top: 7vw;
+    padding-left: 4vw;
+    padding-bottom: 4vw; } }
+
 .faqs_otras_titulo {
-  color: #0076A1;
+  color: #0076a1;
   font-family: HarmoniaSansW01-Bold;
   font-size: 20px;
   line-height: 22px;
   margin-bottom: 0.9vw; }
 
+@media screen and (max-width: 767px) {
+  .faqs_otras_titulo {
+    font-size: 5vw;
+    margin-bottom: 4vw; } }
+
 .faqs_articulo_preguntas {
-  color: #7F7F7F;
+  color: #7f7f7f;
   font-family: HarmoniaSansW01-Regular;
   font-size: 18px;
   line-height: 22px;
   margin-top: 1.2vw; }
+
+@media screen and (max-width: 767px) {
+  .faqs_articulo_preguntas {
+    font-size: 5vw;
+    line-height: 6vw;
+    margin-bottom: 4vw; } }
 
 .faqs_interna {
   background-image: url("/images/Group 13 Copyz.png");
@@ -2510,17 +2631,6 @@ ul {
   margin-top: 1.6vw;
   line-height: 50px;
   text-align: left; }
-
-.faqs_texto {
-  width: 42%;
-  margin-left: 5.5%;
-  margin-top: 2.3vw;
-  margin-bottom: 4vw;
-  color: #7F7F7F;
-  text-align: left;
-  font-family: HarmoniaSansW01-Regular;
-  font-size: 18px;
-  line-height: 22px; }
 
 .seccion_contacto {
   display: flex;
