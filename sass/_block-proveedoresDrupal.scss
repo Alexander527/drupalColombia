@@ -1,0 +1,83 @@
+.proveedores {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 88%;
+    margin-left: 5.5%;
+    grid-gap: 2vw;
+    text-align: left;
+    margin-top: 5vw;
+    box-sizing: border-box;
+}
+
+.proveedores_contenedor {
+    margin-top: 4vw;
+    box-sizing: border-box;
+    h2 {
+        display: flex;
+        margin-top: 1.2vw;
+        color: #5B5B5B;	
+        font-family: HarmoniaSansW01-Bold;	
+        font-size: 1.4vw;	
+        line-height: 30px;
+    }
+    p {
+        color: #6D7278;	
+        font-family: HarmoniaSansW01-Regular;	
+        font-size: 0.9vw;	
+        line-height: 19px;
+        margin-top: 0.2vw;
+    }
+    ul {
+        display: flex;
+        flex-direction: column;
+        margin-top: 1vw;
+        li {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            color: #FFBA00;
+            
+        }
+    }
+}
+
+
+.proveedores_contenedor_botones {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+.proveedores_boton {	
+    width: 4.7vw;	
+    border-radius: 8px;	
+    padding: 3px;
+    background-color: #0084B3;
+    color: #FFFFFF;	
+    font-family: HarmoniaSansW06-Condensed;	
+    font-size: 0.8vw;	
+    text-align: center;
+    margin-top: 1.9vw;
+    margin-right: 0.7vw;
+}
+
+.proveedores_info {
+    margin-left: 1vw;
+    padding-bottom: 1vw;
+    color: #6D7278;	
+    font-family: HarmoniaSansW01-Regular;	
+    line-height: 24px;
+    text-align: left;
+    font-size: 2vw;
+}
+
+.proveedores_contenedor_imagenes {
+    display: flex;
+    height: 8.7vw;
+    justify-content: center;
+}
+.proveedores_imagenes {
+    width: 100%;
+    align-self: center;
+    height: auto;
+
+}

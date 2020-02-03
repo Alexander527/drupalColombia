@@ -1,0 +1,90 @@
+.nuestros-socios {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 3vw;
+}
+
+@media screen and(max-width:"767px") {
+    .nuestros-socios {
+        display: grid;
+        margin-top: 10vw;
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+.contenidos-nuestros-socios {
+    position: relative;
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+}
+
+@media screen and(max-width:"767px") {
+    .contenidos-nuestros-socios {
+        display: flex;
+        flex-direction: row;
+        width: 86%;
+        margin-left: 7%;
+        margin-top: 3vw;
+    }
+}
+.nombre-socio {
+    font-family: HarmoniaSansW01-Regular;
+    font-size: 1.3vw;
+    font-weight: 600;
+    line-height: 33px;	
+    text-align: center;
+    padding-top: 5px;
+}
+
+.titulo-socio {
+    font-family: HarmoniaSansW06-Condensed;	
+    font-size: 1vw;
+
+}
+@media screen and(max-width:"767px") {
+    .nombre-socio {
+        font-family: HarmoniaSansW01-Regular;
+        font-size: 4vw;
+        font-weight: 600;
+        line-height: 5vw;	
+        margin-top: 25vw;
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    .titulo-socio {
+        font-size: 3vw;
+    }
+}
+
+
+.contenedor-imagenes-socios {
+    position: relative;
+}
+
+@media screen and(max-width:"767px") {
+    .imagenes-socios {
+        width: 100%;
+    }
+    .contenedor-imagenes-socios {
+        width: 50%;
+        margin-right: 4vw;
+    }
+}
+
+.logo-socios {
+    position: absolute;
+    justify-content: center;
+    width: 50px;
+    top: 0px;
+    left: 76%;
+}
+
+@media screen and(max-width:"767px") {
+    .logo-socios {
+        position: absolute;
+        justify-content: center;
+        width: 5vw;
+        top:0px;
+        left:84%;
+    }
+}

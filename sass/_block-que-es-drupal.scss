@@ -1,0 +1,87 @@
+#que_es_drupal {
+    color: #5B5B5B;	
+    font-family: HarmoniaSansW01-Regular;	
+    font-size: 2.7vw;
+    margin-top: 2.5vw;
+    margin-bottom: 3vw;
+
+}
+
+@media screen and (max-width:"767px") {
+
+    #que_es_drupal {
+        font-size: 2.0em;
+    }
+}
+
+#section_que_es_drupal {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    width: 80%;
+    margin-left: 10%;
+    margin-bottom: 3vw;
+    font-family: HarmoniaSansW01-Regular;
+}
+
+@media screen and (max-width:"767px") {
+
+    #section_que_es_drupal {
+        width: 88%;
+        margin-left: 6%;
+        flex-direction: column;
+    }
+}
+.article_que_es_drupal {
+    
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    width: 17vw;
+    
+}
+
+@media screen and (max-width:"767px") {
+
+    .article_que_es_drupal {
+        width: 100%;
+        position: relative;
+        text-align: center;
+    }
+}
+
+.fondo_que_es_drupal {
+    width: 100%;
+}
+
+
+.contenido_que_es_drupal {
+    position: absolute;
+    top: 10%;
+    text-align: left;
+    margin: 2vw;
+    width: 80%;  
+    font-size: 0.8vw;
+
+}
+
+@media screen and (max-width:"767px") {
+    .contenido_que_es_drupal {
+        font-size: 3.2vw;
+        margin-left: 10vw;
+        margin-top: 6vw;
+    
+    }
+}
+
+.contenido_que_es_drupal .imagenes {
+ width: 3.5vw;
+}
+
+@media screen and(max-width:"767px"){
+    .contenido_que_es_drupal .imagenes {
+        width: 28%;
+        margin-bottom: 5vw;
+       }
+
+}

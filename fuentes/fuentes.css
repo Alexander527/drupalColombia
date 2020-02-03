@@ -6,3 +6,7 @@
     font-family: HarmoniaSansW01-Bold;
     src: url(Harmonia\ Sans\ W01\ Bold.ttf);
 }
+@font-face {
+    font-family: HarmoniaSansW06-Condensed;
+    src: url(Harmonia\ Sans\ W06\ Condensed.ttf);
+}

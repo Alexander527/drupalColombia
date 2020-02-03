@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="fuentes/fuentes.css">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="fontawesome/css/all.css"> 
     <title>Drupal Colombia</title>
 </head>
@@ -14,7 +14,7 @@
         <header>
             <nav>
                 <div>
-                    <img src="images/LogoAsociacionDrupalColombia-1-EnCurvas-svg.svg" alt="">
+                    <img src="images/LogoAsociacionDrupalColombia-1-EnCurvas-svg.svg" alt="" class="logo">
                 </div>
                 <div id="nav_elementos">
                     <span class="fas fa-search" id="nav_search"></span>
@@ -30,6 +30,7 @@
                         <p id="nav_desarrollador">¿Eres desarrollador?</p>
                         <hr>
                     </div>
+                    <div class="line-5-copy-2"></div>
                     <span class="fas fa-bars" id="nav_redes"></span>
                 </div>
             </nav>
@@ -65,6 +66,7 @@
                         <img src="images/Group 10 Copy.png" alt="" class="fondo_que_es_drupal">
                         <div class="contenido_que_es_drupal">
                             <img src="images/nube.png" alt="" class="imagenes">
+
                             <p>Lorem ipsum dolor sit amet consectetur adipiscing elit, rhoncus tellus scelerisque torquent natoque.</p>
                         </div>
                     </article>
@@ -79,11 +81,21 @@
             </section>
             <section>
                 <article id="article_porque_drupal">
-                    <img src="images/Save-the-Date-Slides.png" alt="" width="100%">
+                    <img src="images/Save-the-Date-Slides.png" alt="" class="imagen_porque_drupal">
                     <div id="contenido_porque_drupal">
                         <div id="por_que_drupal">¿Por qué elegir <strong>Drupal</strong>?</div>
-                        <p id="texto_porque_drupal">Lorem ipsum dolor sit amet consectetur adipiscing elit faucibus erat eros, nisl egestas elementum cum ornare laoreet viverra odio.</pclass="texto-encima">
+                        <p id="texto_porque_drupal">Lorem ipsum dolor sit amet consectetur adipiscing elit faucibus erat eros, nisl egestas elementum cum ornare laoreet viverra odio.</p>
                         <div id="prueba_drupal">Prueba Drupal</div>
+                    </div>
+                </article>
+            </section>
+            <section>
+                <article id="article_porque_drupal_mobile">
+                    <img src="images/Save-the-Date-Slides-2.png" alt="" class="imagen_porque_drupal_mobile">
+                    <div id="contenido_porque_drupal_mobile">
+                        <div id="por_que_drupal_mobile">¿Por qué elegir <strong>Drupal</strong>?</div>
+                        <p id="texto_porque_drupal_mobile">Lorem ipsum dolor sit amet consectetur adipiscing elit faucibus erat eros, nisl egestas elementum cum ornare laoreet viverra odio.</p>
+                        <div id="prueba_drupal_mobile">Prueba Drupal</div>
                     </div>
                 </article>
             </section>
@@ -93,73 +105,24 @@
                     <article id="noticias_section_1">
                         <img src="images/Bitmap Copy.png" class="imagen_hola">
                         <p class="titulos_noticias"><strong>Crear un sitio web multilenguaje en Drupal 8</strong></p>
-                        <p class="texto_noticias">Es posible que el proyecto en el que trabajamos requiera la adaptación de los contenidos a otros idiomas</p>
+                        <p class="texto_noticias">Es posible que el proyecto en el que trabajamos requiera la adaptación de los contenidos a otros idiomas.</p>
                     </article>
                     <article class="contenedor_lateral_noticias">
-                        <div>
+                        <div class="texto_lateral_noticias">
                             <p class="titulos_noticias"><strong>Desplegando código con jenkins, Phing, Coder y PHPUnit (Parte III)</strong></p class="titulos_noticias">
                             <p class="texto_noticias">En un artículo anterior ya vimos como configurar Jenkins para realizar un deployment en un entorno remoto.</p class="texto_noticias">
                         </div>
                         <img src="images/Bitmap.svg" alt="" class="imagen_lateral">
                     </article>
                     <article class="contenedor_lateral_noticias_2">
-                        <div>
-                            <p class="titulos_noticias"><strong>YAML: Ficheros de configuración en Drupal 8</strong></p class="titulos_noticias">
+                        <div class="texto_lateral_noticias">
+                            <p class="titulos_noticias"><strong>YAML: Ficheros de configuración en Drupal 8</strong></p>
                             <p class="texto_noticias">Como hemos visto en el post relativo a la nueva arquitectura que presenta Drupal 8 tras su integración con Symfony2.</p class="texto_noticias">
                         </div>
                         <img src="images/Bitmap5.png" class="imagen_lateral" alt="">
                     </article>                             
                 </section>
                 <img src="images/Gota onda.png" alt="" id="gota">
-            </section>
-            <section class="sections_size">
-                <h2 id="eres_desarrollador">¿Eres <strong>desarrollador</strong>?</h2>
-                <ul id="menu_eres_desarrollador">
-                    <li class="elementos_menu">Recursos para desarrolladores Drupal</li>
-                    <li class="elementos_menu">Marcas que adoptaron Drupal</li class="elementos_menu">
-                    <li class="elementos_menu">Bolsa de empleo</li class="elementos_menu">
-                </ul>
-                <section id="section_desarrollador_contorno">
-                    <article>
-                        <Strong class="desarrollador_titulos">Documentación</Strong></br>
-                        <div id="contenido_desarrollador">
-                            <div>
-                                Guía para desarroladores HTML | PDF | Kindle</br>
-                                Guía del usuario de la consola HTML | PDF | Kindle
-                            </div>
-                            <div>
-                                Referencias de la API HTML | PDF | Kindle</br>
-                                Guía de introducción HTML | PDF | Kindle
-                            </div>
-                        </div>
-                    </article>
-                    <article>
-                        <strong class="desarrollador_titulos">Documentos técnicos y tutoriales</strong class="desarrollador_titulos">
-                        <p id="contenido_desarrollador_2">Tutoriales en video de S3</br>
-                            PDF sobre los enfoques de copia de seguridad y recuperación mediante AWS</br>
-                            PDF sobre copias de seguridad dy recuperación para empresas: de la infraestructura local a AWS</br>
-                            PDF sobre el uso de AWS para la recuperación de desastres</br>
-                            PDF sobre Amazon S3 para servicios financieros
-                        </p>
-                    </article>
-                    <article>
-                        <strong class="desarrollador_titulos">Seminarios web</strong>
-                        <div id="desarrollador_videos">
-                            <div>
-                                <img src="images/Bitmap Copy 3.png" alt="">
-                                <p id="contenido_desarrollador_2">Curso de Drupal 8 - completo</pcontenido_desarrollador_2>
-                            </div>
-                            <div>
-                                <img src="images/Captura de pantalla 2019-12-11 a la(s) 14.10.52.png"">
-                                <p id="contenido_desarrollador_2">Construyendo sitios web en Drupal, sin programar</p>
-                            </div>
-                            <div>
-                                <img src="images/Bitmap Copy 3.png" alt="">
-                                <p id="contenido_desarrollador_2">Curso de Drupal 8 - completo</p>
-                            </div>
-                        </div>
-                    </article>
-                </section>
             </section>
             <section class="sections_size">
                 <h2 id="patrocinadores">Patrocinadores</h2>
@@ -170,23 +133,26 @@
                     <img src="images/logo4.png" alt="" class="logos">
                     <img src="images/logo5.png" alt="" class="logos">
                     <img src="images/logo6.png" alt="" class="logos">
-                    <img src="images/logo7.png" alt="" class="logos">
-                    <img src="images/logo8.png" alt="" class="logos">
-                    <img src="images/logo9.png" alt="" class="logos">
-                    <img src="images/logo10.png" alt="" class="logos">
-                    <img src="images/logo11.png" alt="" class="logos">
                     <img src="images/logo12.png" alt="" class="logos">
-                    <img src="images/logo13.png" alt="" class="logos">
-                    <img src="images/logo14.png" alt="" class="logos">
-                    <img src="images/logo15.png" alt="" class="logos">
-                    <img src="images/logo16.png" alt="" class="logos">
-                    <img src="images/logo17.png" alt="" class="logos">
-                    <img src="images/logo1_8.png" alt="" class="logos">
+                    <img src="images/logo11.png" alt="" class="logos">
+                    <img src="images/logo10.png" alt="" class="logos">
+                    <img src="images/logo9.png" alt="" class="logos">
+                    <img src="images/logo8.png" alt="" class="logos">
+                    <img src="images/logo7.png" alt="" class="logos">
                 </div>
             </section>
             <div id="imagen_apoya">
-                <img src="images/Bitmapz.png" alt="" width="100%">
-                <div id="texto_apoya">
+                <img src="images/Bitmap inferior.png" alt="" width="100%">
+                <p id="titulo_apoya">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed diam <br>
+                    nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam.
+                </p>
+                <div id="boton_apoya">
+                    Apoya la comunidad
+                </div>
+            </div>
+            <div id="imagen_apoya_mobile">
+                <img src="images/Bitmap_2.png" alt="" width="100%">
+                <div id="texto_apoya_mobile">
                     Apoya la comunidad
                 </div>
             </div>
@@ -194,7 +160,7 @@
         <footer>
             <div id="logo_footer">
                 <div class="line-4-copy-5"></div>
-                <img src="images/LogoAsociacionDrupalColombia-1-EnCurvas-svg.svg" alt="">
+                <img src="images/LogoAsociacionDrupalColombia-1-EnCurvas-svg.svg" alt="" class="logo_footer_imagen">
                 <div class="line-4-copy-5"></div>
             </div>
             <ul id="contactos_footer">
@@ -213,14 +179,14 @@
             </ul>
             <ul id="contenedor_redes_footer">
                 <li class="fab fa-facebook-f" id="redes_footer"></li>
-                <div class="line-4-copy-2"></div>
+                <div class="line-4-copy-6"></div>
                 <li class="fab fa-twitter" id="redes_footer"></li>
-                <div class="line-4-copy-2"></div>
+                <div class="line-4-copy-6"></div>
                 <li class="fab fa-instagram" id="redes_footer"></li>
-                <div class="line-4-copy-2"></div>
+                <div class="line-4-copy-6"></div>
                 <li class="fab fa-linkedin-in" id="redes_footer"></li>
             </ul>
-            <div class="line-4-copy-6"></div>
+            <div class="line-4-copy-7"></div>
             <div id="copyright">Copyright 2019 Drupal Colombia. Todos los derechos reservados. <a href>Política de privacidad</a></div>
         </footer>
     </div>

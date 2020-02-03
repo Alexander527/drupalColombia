@@ -1,0 +1,200 @@
+#article_porque_drupal {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+}
+
+#article_porque_drupal_mobile {
+    display: none;
+}
+
+@media screen and(max-width:"767px") {
+
+    #article_porque_drupal {
+        display: none;
+    }
+
+    #article_porque_drupal_mobile {
+        position: relative;
+        display: inline-block;
+        text-align: center;
+        width: 100%;
+    }
+}
+
+.imagen_porque_drupal {
+    width: 100%;
+}
+
+@media screen and(max-width:"767px") {
+    .imagen_porque_drupal_mobile {
+        width: 100%;
+    }
+}
+
+#contenido_porque_drupal{
+    position: absolute;
+    top: 3vw;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    justify-content: center;
+    text-align: center;    
+
+}
+
+@media screen and(max-width:"767px") {
+
+    #contenido_porque_drupal_mobile{
+        position: absolute;
+        top: 7vw;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        margin: auto;
+        justify-content: center;
+        text-align: center;    
+    
+    }
+}
+
+#por_que_drupal {
+    color: #FFFFFF;	
+    font-family: HarmoniaSansW01-Regular;
+    margin: 0 auto;	
+    margin-bottom: 1.6vw;
+    font-size: 2.7vw;	
+    text-align: center;
+}
+
+@media screen and(max-width:"767px") {
+    #por_que_drupal_mobile {
+        color: #FFFFFF;	
+        font-family: HarmoniaSansW01-Regular;
+        margin: 0 auto;	
+        margin-bottom: 6vw;
+        font-size: 5vw;	
+        text-align: center;
+    }
+
+}
+
+#texto_porque_drupal {
+    width: 53%;	
+    color: #FFFFFF;	
+    font-family: HarmoniaSansW01-Regular;	
+    font-size: 1.3vw;
+    line-height: 1.6vw;
+    text-align: center;
+    margin: 0 auto;	
+    margin-bottom: 2.5%;
+    
+}
+
+@media screen and(max-width:"767px") {
+
+    #texto_porque_drupal_mobile {
+        width: 84vw;	
+        color: #FFFFFF;	
+        font-family: HarmoniaSansW01-Regular;	
+        font-size: 3.6vw;	
+        line-height: 4vw;
+        text-align: center;
+        margin: 0 auto;	
+        margin-bottom: 11%;
+        
+    }
+}
+
+#prueba_drupal {
+    color: #FFFFFF;	
+    font-family: HarmoniaSansW01-Regular;
+    font-size: 1.4vw;	
+    font-weight: 100;
+    box-sizing: border-box;	
+    height: 3.4vw;
+    width: 17%;
+    border: 3px solid #FFFFFF;	
+    border-radius: 10px;
+    padding-top: 0.8vw;
+    margin: 0 auto;	
+}
+
+@media screen and(max-width:"767px") {
+
+    #prueba_drupal_mobile {
+        color: #FFFFFF;	
+        font-family: HarmoniaSansW01-Bold;
+        font-size: 6.5vw;	
+        box-sizing: border-box;	
+        height: 16vw;
+        width: 60%;
+        border: 3px solid #FFFFFF;	
+        border-radius: 10px;
+        padding-top: 2.7vw;
+        margin: 0 auto;	
+    }
+}
+
+.sections_size {
+width: 89%;
+margin-left:5.5%;
+}
+
+/*@media screen and(max-width:"767px") {
+
+    .imagen_porque_drupal_mobile {
+        width: 100%;
+    }
+
+    #contenido_porque_drupal_mobile {
+        position: absolute;
+        top: 3vw;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        margin: auto;
+        justify-content: center;
+        text-align: center;
+        display: contents;
+    }
+    
+    
+    #por_que_drupal_mobile {
+        color: #FFFFFF;	
+        font-family: HarmoniaSansW01-Regular;
+        margin: 0 auto;	
+        margin-bottom: 2vw;
+        font-size: 3vw;	
+        text-align: center;
+        display: contents;
+    }
+    
+    #texto_porque_drupal_mobile {
+        width: 43%;	
+        color: #FFFFFF;	
+        font-family: HarmoniaSansW01-Regular;	
+        font-size: 1.3vw;	
+        line-height: 1.6vw;
+        text-align: center;
+        margin: 0 auto;	
+        margin-bottom: 3%;
+        display: contents;
+    }
+    
+    #prueba_drupal_mobile {
+        color: #FFFFFF;	
+        font-family: HarmoniaSansW01-Bold;
+        font-size: 1.3vw;	
+        box-sizing: border-box;	
+        height: 3.1vw;
+        width: 14%;
+        border: 3px solid #FFFFFF;	
+        border-radius: 10px;
+        padding-top: 0.6vw;
+        margin: 0 auto;
+        display: contents;	
+    }
+}*/

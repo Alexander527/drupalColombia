@@ -1,0 +1,46 @@
+.filtrar {
+    display: flex;
+    flex-direction: row;
+    margin-top: 2.5vw;
+    width: 60%;
+    margin-left: 20%;
+    justify-content: space-around;
+}
+
+.filtrar_contenedor {
+    padding-left: 0.87vw;
+    padding-right: 0.7vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 40px;	
+    width: 10vw;	
+    border-radius: 8px;	
+    background-color: #FFFFFF;	
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.3);
+}
+
+
+.filtrar_texto {	
+    color: #A0A0A0;	
+    font-family: HarmoniaSansW01-Regular;	
+    font-size: 1.1vw;	
+    line-height: 24px;
+}
+
+#caret-down {
+    color: #FFBA00;
+}
+
+.filtrar_boton {
+    height: 40px;	
+    width: 105px;	
+    border-radius: 8px;	
+    background-color: #FFBA00;	
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.5);
+    color: #FFFFFF;	
+    font-family: HarmoniaSansW01-Bold;	
+    font-size: 20px;	
+    line-height: 24px;	
+    text-align: center;
+}

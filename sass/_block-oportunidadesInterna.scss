@@ -1,0 +1,131 @@
+.aplicar {
+    display: flex;
+    flex-direction: row;
+    margin-top: 2vw;
+    justify-content: space-between;
+}
+
+.aplicar_contenedor {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-left: 5.5%;
+}
+
+.aplicar_ciudad {
+    font-family: HarmoniaSansW06-Condensed;	
+    font-size: 25px;	
+    line-height: 29px;
+    color: #6D7278
+}
+
+.aplicar_titulo {
+    color: #0084B3;	
+    font-family: HarmoniaSansW01-Bold;	
+    font-size: 50px;	
+    line-height: 62px;
+    margin-top: 0.8vw;
+}
+
+.aplicar_logo {
+    display: flex;
+    flex-direction: row;
+    margin-top: 1vw;
+    align-items: flex-end;
+}
+
+.aplicar_nombre_logo {
+    color: #5B5B5B;	
+    font-family: HarmoniaSansW01-Bold;	
+    font-size: 25px;	
+    line-height: 30px;
+    margin-left: 1vw;
+    vertical-align: bottom;
+}
+
+.aplicar_texto {
+    color: #5B5B5B;	
+    font-family: HarmoniaSansW01-Regular;	
+    font-size: 25px;	
+    line-height: 33px;
+    margin-top: 1.6vw;
+    width: 90%;
+}
+.aplicar-line-2 {
+    box-sizing: border-box;	
+    height: 0.1px;	
+    width: 360px;	
+    border: 1.6px solid #F7B500;
+    border-radius: 4px;
+    margin-top: 9vw;
+    margin-left: 5.5%;
+}
+
+.aplicar_info {
+    display: flex;
+    flex-direction: row;
+    margin-top: 2vw;
+    flex-wrap: wrap;
+    width: 80%;
+}
+
+.aplicar_info_contenedor {
+    display: flex;
+    flex-direction: row;
+    margin-right: 2vw;
+    margin-bottom: 1vw;
+    font-weight: 100;
+    i {
+        color: #FFBA00;
+        font-size: 22px;
+    }
+    p {
+        color: #7F7F7F;	
+        font-family: HarmoniaSansW01-Regular;	
+        font-size: 25px;	
+        line-height: 22px;
+        margin-left: 0.3vw;
+    }
+}
+
+.aplicar_fecha {
+    color: #7F7F7F;
+    margin-top: 0.7vw;
+    font-family: HarmoniaSansW06-Condensed;	
+    font-size: 25px;	
+    line-height: 29px;
+}
+
+.aplicar_boton {
+    margin-top: 2vw;
+    height: 100px;	
+    width: 600px;	
+    font-family: HarmoniaSansW01-Regular;	
+    font-size: 50px;	
+    line-height: 61px;
+    border-radius: 10px;	
+    background-color: #FFBA00;
+    color: #fff;
+    align-self: center;
+}
+
+.aplicar_ofertas {
+    color: #5B5B5B;	
+    font-family: HarmoniaSansW01-Regular;	
+    font-size: 50px;	
+    line-height: 61px;
+    text-align: left;
+    font-weight: 200;
+    margin-left: 5.5%;
+    margin-top: 1vw;
+}
+
+.oportunidades_internas  {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 4.7vw;
+    margin-top: 1.4vw;
+    width: 86%;
+    margin-left: 5.5%;
+
+}

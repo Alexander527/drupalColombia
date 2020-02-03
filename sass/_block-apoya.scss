@@ -1,0 +1,105 @@
+#imagen_apoya {
+    display: flex;
+    position: relative;
+    align-items: center;
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    margin-top: 2vw;
+}
+
+#imagen_apoya_mobile {
+    display: none;
+}
+
+@media screen and(max-width:"767px") {
+    #imagen_apoya {
+        display: none;
+    }
+    #imagen_apoya_mobile {
+        position: relative;
+        display: inline-block;
+        text-align: center;
+        width: 100%;
+        margin-top: 2vw;
+    }    
+}
+
+#titulo_apoya {
+    position: absolute;
+    top: 3.2vw;
+    left: 0vw;
+    margin: auto;
+    font-family: HarmoniaSansW01-Regular;	
+    font-size: 24px;	
+    line-height: 29px;
+    text-align: center;
+    color: #FFFFFF;	
+    width: 100%;
+    margin-bottom: 12vw;
+}
+#texto_apoya {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    padding-top: 10px;
+    justify-content: center;
+    text-align: center;
+    color: #FFFFFF;	
+    font-family: HarmoniaSansW01-Regular;	
+    font-size: 2.1vw;	
+    line-height: 48px;
+    box-sizing: border-box;	
+    height: 85px;	
+    width: 449px;	
+    border: 3px solid #FFFFFF;	
+    border-radius: 15px;	
+    background-color: rgba(255,255,255,0.4);
+}
+
+#boton_apoya {
+    position: absolute;
+    top: 4.6vw;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    padding-top: 10px;
+    justify-content: center;
+    text-align: center;
+    color: #FFFFFF;	
+    font-family: HarmoniaSansW01-Regular;	
+    font-size: 2.1vw;	
+    line-height: 48px;
+    box-sizing: border-box;	
+    height: 85px;	
+    width: 449px;	
+    border: 3px solid #FFFFFF;	
+    border-radius: 15px;	
+    background-color: rgba(255,255,255,0.4);
+}
+@media screen and(max-width:"767px") {
+    #texto_apoya_mobile {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        margin: auto;
+        padding-top: 5vw;
+        justify-content: center;
+        text-align: center;
+        color: #FFFFFF;	
+        font-family: HarmoniaSansW01-Regular;	
+        font-size: 5vw;	
+        box-sizing: border-box;	
+        height: 18vw;	
+        width: 60vw;	
+        border: 3px solid #FFFFFF;	
+        border-radius: 15px;	
+        background-color: rgba(255,255,255,0.4);
+    }   
+}

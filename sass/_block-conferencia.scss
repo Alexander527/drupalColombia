@@ -1,0 +1,98 @@
+.contenido_conferencia {
+    display: flex;
+    flex-direction: row;
+    width: 84%;
+    margin-left: 8%;
+    margin-top: 4vw; 
+}
+
+@media screen and(max-width:"767px") {
+    .contenido_conferencia {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin-left: 0px;
+        margin-top: 14vw; 
+    }
+}
+.conferencia {
+    color: #000000;	
+    font-family: HarmoniaSansW01-Bold;	
+    font-size: 0.8vw;	
+    line-height: 18px;
+    margin-bottom: 5px;
+}
+
+@media screen and(max-width:"767px") {
+    .conferencia {
+        font-size: 3.2vw;	
+        line-height: 18px;
+        margin-bottom: 5px;
+    }
+}
+.conferencia-titulo {
+    color: #1390BE;	
+    font-family: HarmoniaSansW01-Regular;	
+    font-size: 25px;	
+    line-height: 30px;
+}
+
+@media screen and(max-width:"767px") {
+    .conferencia-titulo {
+        font-size: 4.2vw;	
+        line-height: 30px;
+    }
+}
+
+.conferencia-texto {
+    color: #000000;	
+    font-family: HarmoniaSansW01-Regular;	
+    font-size: 16px;	
+    line-height: 19px;
+}
+
+@media screen and(max-width:"767px") {
+    .conferencia-texto {
+        font-size: 4vw;
+        line-height: 5vw;
+    }
+}
+.texto-conferencia {
+    text-align: left;
+    width: 47%;
+    margin-left: 1vw;
+    
+}
+
+@media screen and(max-width:"767px") {
+    .texto-conferencia {
+        text-align: left;
+        width: 86%;
+        margin-left: 7%;
+        margin-top: 3vw;
+        
+    }
+}
+
+.conferencia-horario {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border-radius: 10px;	
+    background-color: #EFEFEF;
+    padding: -5vw 0.1vw;
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+    color: #000000;	
+    font-family: HarmoniaSansW01-Regular;	
+    font-size: 16px;	
+    line-height: 27px;
+}
+
+@media screen and(max-width:"767px") {
+    .conferencia-horario {
+        height: 40vw;
+        font-size: 3vw;
+        flex-direction: column;
+    }
+}

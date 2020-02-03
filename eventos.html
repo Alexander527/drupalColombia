@@ -5,17 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="fuentes/fuentes.css">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="fontawesome/css/all.css"> 
     <title>Eventos</title>
 </head>
 <body>
     <div id="contenedor">
         <header id="header_2">
-            <img src="images/Group 10 Copy 2.png" alt="" width="100%"> 
+            <img src="images/Group 10 Copy 2.png" alt="" width="100%"  class="imagen_header"> 
             <div id="nav_2">
                 <div>
-                    <img src="images/LogoAsociacionDrupalColombia-1-EnCurvas-svg.svg" alt="">
+                    <img src="images/LogoAsociacionDrupalColombia-1-EnCurvas-svg.svg" alt="" class="logo">
                 </div>
                 <div id="nav_elementos">
                     <span class="fas fa-search" id="nav_search"></span>
@@ -34,7 +34,17 @@
                     <span class="fas fa-bars" id="nav_redes"></span>
                 </div>
             </div>
-            <div id="breadhome">Inicio // Nuestra asociación // Eventos</div>
+            <ul class="breadcrums">
+                <li class="breadcrums__item">
+                    <a href="index.html" class="breadcrums__link">Inicio</a>
+                </li>
+                <li class="breadcrums__item">
+                    <a href="index.html" class="breadcrums__link">Nuestra asociación</a>
+                </li>
+                <li class="breadcrums__item">
+                    <a href="eventos.html" class="breadcrums__link breadcrums__link--active">Eventos</a>
+                </li>
+            </ul>
             <div id="contenido_banner">
                 <div id="titulo_banner">Eventos</div>
                 <div id="texto_banner">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem ipsum.</div>
@@ -70,7 +80,7 @@
         <footer>
             <div id="logo_footer">
                 <div class="line-4-copy-5"></div>
-                <img src="images/LogoAsociacionDrupalColombia-1-EnCurvas-svg.svg" alt="">
+                <img src="images/LogoAsociacionDrupalColombia-1-EnCurvas-svg.svg" alt="" class="logo_footer_imagen">
                 <div class="line-4-copy-5"></div>
             </div>
             <ul id="contactos_footer">
@@ -89,14 +99,14 @@
             </ul>
             <ul id="contenedor_redes_footer">
                 <li class="fab fa-facebook-f" id="redes_footer"></li>
-                <div class="line-4-copy-2"></div>
+                <div class="line-4-copy-6"></div>
                 <li class="fab fa-twitter" id="redes_footer"></li>
-                <div class="line-4-copy-2"></div>
+                <div class="line-4-copy-6"></div>
                 <li class="fab fa-instagram" id="redes_footer"></li>
-                <div class="line-4-copy-2"></div>
+                <div class="line-4-copy-6"></div>
                 <li class="fab fa-linkedin-in" id="redes_footer"></li>
             </ul>
-            <div class="line-4-copy-6"></div>
+            <div class="line-4-copy-7"></div>
             <div id="copyright">Copyright 2019 Drupal Colombia. Todos los derechos reservados. <a href>Política de privacidad</a></div>
         </footer>
     </div>

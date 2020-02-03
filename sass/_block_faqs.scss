@@ -1,0 +1,108 @@
+.line-2 {	box-sizing: border-box;	
+    height: 0.5px;	
+    width: 360px;	
+    border: 1.6px solid #F7B500;
+    border-radius: 4px;
+    margin-top: 3vw;
+    margin-left: 5.5%;
+}
+
+.faqs_texto {
+    width: 42%;
+    margin-left: 5.5%;
+    margin-top: 1vw;
+    color: #7F7F7F;	
+    text-align: left;
+    font-family: HarmoniaSansW01-Regular;	
+    font-size: 18px;	
+    line-height: 22px;
+}
+
+.faqs {
+    display: flex;
+    flex-direction: row;
+    margin-left: 5.5%;
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+}
+
+.faqs_titulo {
+    color: #5B5B5B;	
+    font-family: HarmoniaSansW01-Regular;	
+    font-size: 50px;	
+    line-height: 45px;
+    text-align: left;
+}
+
+.faqs_titulo_2 {
+    color: #5B5B5B;	
+    font-family: HarmoniaSansW01-Regular;	
+    font-size: 50px;
+    margin-left: 5.5%;	
+    line-height: 45px;
+    text-align: left;
+}
+
+.faqs_contenedor_preguntas {
+    display: flex;
+    flex-direction: column;
+}
+
+.faqs_preguntas {
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;	
+    height: 50px;	
+    width: 607px;
+    border: 2px solid #0084B3;	
+    border-radius: 8px;	
+    box-shadow: 0 2px 4px;
+    color: #7F7F7F;	
+    font-family: HarmoniaSansW01-Regular;	
+    font-size: 18px;	
+    line-height: 22px;
+    padding: 0.6vw 0.5vw 0px 1vw;
+    margin-bottom: 1vw;
+    margin-left: 3.5vw;
+}
+
+.faqs_otras_preguntas {
+    display: flex;
+    margin-left: 5.5%;
+    margin-top: 1.7vw;
+    margin-bottom: 0.7vw;
+}
+.faqs_mas {
+    font-size: 1.7vw;
+    color: #0084B3;
+}
+
+.faqs_articulo {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;	height: 330px;	
+    width: 620px;	
+    border: 2px solid #0084B3;	
+    border-radius: 8px;
+    text-align: left;
+    padding: 1.2vw 2.1vw 0px;
+    margin-right: 2.2vw;
+    background-color: #fff;
+
+}
+
+.faqs_otras_titulo {
+    color: #0076A1;	
+    font-family: HarmoniaSansW01-Bold;	
+    font-size: 20px;	
+    line-height: 22px;
+    margin-bottom: 0.9vw;
+}
+
+.faqs_articulo_preguntas {
+    color: #7F7F7F;	
+    font-family: HarmoniaSansW01-Regular;	
+    font-size: 18px;	
+    line-height: 22px;
+    margin-top: 1.2vw;
+}

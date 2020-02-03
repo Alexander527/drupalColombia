@@ -1,0 +1,36 @@
+#patrocinadores {
+    color: #5B5B5B;	
+    font-family: HarmoniaSansW01-Regular;	
+    font-size: 50px;
+    font-weight: 400;	
+    line-height: 61px;
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+}
+
+@media screen and(max-width:"767px") {
+    #patrocinadores {	
+        font-size: 2em;	
+        margin-top: 3vw;
+        text-align: left;
+        font-weight: 300;
+    }
+}
+
+#grid_logos {
+    display: grid;
+    width: 100%;
+    justify-items: center;
+    grid-template-columns: repeat(6,1fr);
+}
+
+@media screen and(max-width:"767px") {
+    #grid_logos {	
+        width: 100%;
+        margin-left: 0%;
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+.logos {
+    width: 100%;
+}

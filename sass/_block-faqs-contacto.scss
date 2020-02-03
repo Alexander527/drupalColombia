@@ -1,0 +1,85 @@
+.seccion_contacto {
+    display: flex;
+    flex-direction: row;
+    margin-left: 5.5%;
+    margin-bottom: 3.3vw;
+}
+
+.articulo_contacto{
+    display: flex;
+    flex-direction: column;
+    width: 45.5%;
+    color: #0084B3;	
+    font-family: HarmoniaSansW01-Regular;	
+    font-size: 20px;	
+    text-align: left;
+
+    .mensaje {
+        box-sizing: border-box;
+        width: 100%;
+        border: 2px solid #0084B3;
+        border-radius: 8px;
+        margin-top: 1.3vw;
+        color: #A7A7A7;
+        font-family: HarmoniaSansW01-Regular;
+        font-size: 18px;
+        padding-left: 1.2vw; 
+        height: 100px;
+    }
+
+    p{
+        margin-top: 2vw;
+        margin-bottom: 1.6vw;
+    }
+}
+
+.contacto_input {
+        box-sizing: border-box;
+        width: 100%;
+        border: 2px solid #0084B3;
+        border-radius: 8px;
+        margin-top: 1.3vw;
+        color: #A7A7A7;
+        font-family: HarmoniaSansW01-Regular;
+        font-size: 18px;
+        padding-left: 1.2vw; 
+        height: 50px;
+}
+.contacto_boton{
+    font-family: Helvetica;	
+    font-size: 25px;	
+    height: 55px;
+    width: 155px;
+    font-weight: bold;	
+    line-height: 30px;	
+    border-radius: 5px;
+    background-color: #F7B500;
+    color: #fff;
+    align-self: flex-end;
+}
+
+.articulo_info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 165px;	
+    width: 596px;	
+    border: 2px solid #0084B3;	
+    border-radius: 8px;
+    margin-left: 2.8vw;
+    margin-top: 1.3vw;
+    padding: 1vw 1.6vw;
+    line-height: 2vw;
+    font-size: 23px;
+    color: #5B5B5B;	
+
+    strong {
+        font-size: 17px;
+        color: #0084B3;
+    }
+
+    i {
+        font-size: 115px;
+        color: #F7B500;
+    }
+}

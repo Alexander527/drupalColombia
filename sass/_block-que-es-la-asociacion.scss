@@ -1,0 +1,118 @@
+.contenedor-asociacion {
+    margin-top: 1vw;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-gap: 1.4vw;
+    width: 94%;
+}
+
+@media screen and(max-width:"767px") {
+    .contenedor-asociacion {
+        margin-top: 3vw;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        grid-gap: 2vw;
+        margin-bottom: 5vw;
+    }
+}
+.parrafo-asociacion {
+    margin-left: 4.5vw;
+    grid-row-start: 1;
+    grid-column: 1/3;
+    color: #7F7F7F;	
+    font-family: HarmoniaSansW01-Regular;	
+    font-size: 1vw;
+    text-align: left;
+}
+
+@media screen and(max-width:"767px") {
+    .parrafo-asociacion {
+        margin-left: 7vw;
+        width: 86%;
+        grid-row-start: 1;
+        grid-column: 1/3;
+        color: #7F7F7F;	
+        font-family: HarmoniaSansW01-Regular;	
+        font-size: 22px;
+        text-align: left;
+        margin-top: 5vw;
+    }
+}
+.posicion-asociacion {
+    grid-row-start: 1;
+    width: 100%;
+    border-radius: 20px;
+}
+
+@media screen and(max-width:"767px") {
+    .posicion-asociacion {
+        grid-row-start: 2;
+        margin-left: 7vw;
+        width: 86%;
+    }
+    
+}
+.aside-asociacion {
+    grid-row-start: 1;
+    grid-row-end: 3;
+    width: 100%;
+    border-radius: 20px;
+}
+
+@media screen and(max-width:"767px") {
+    .aside-asociacion {
+        grid-row-start: 2;
+        grid-row-end: 2;
+        width: 86%;
+    }
+    
+}
+.imagen-asociacion {
+    display: grid;
+    width: 100%;
+    grid-column-start:1;
+    grid-column-end: 4;
+    border-radius: 20px;
+}
+@media screen and(max-width:"767px") {
+    .imagen-asociacion {
+        display: grid;
+        width: 100%;
+        grid-column-start:1;
+        grid-column-end: 3;
+    }
+    
+}
+
+.contenido_2-asociacion {
+    display: flex;
+    flex-direction: row;
+    width: 86%;
+    margin-left: 5.5%;
+    margin-bottom: 2vw;
+}
+
+@media screen and(max-width:"767px") {
+    .contenido_2-asociacion {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin-left: 0%;
+        margin-bottom: 2vw;
+    }
+    
+}
+
+.imagen_asociacion_reunion {
+    border-radius: 20px;
+}
+@media screen and(max-width:"767px") {
+    .imagen_asociacion_reunion {
+        width: 86%;
+        margin-left: 7%;
+        border-radius: 30px;
+    }
+    
+}

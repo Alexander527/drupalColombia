@@ -1,0 +1,146 @@
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 6vw;
+    padding-right: 6vw;
+    padding-top: 6px;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.18);
+    position: relative;
+
+}
+#nav_elementos {
+display: flex;
+flex-direction: row;
+width: 44%;
+justify-content: space-between;
+}
+
+@media screen and( max-width: 767px) {
+    #nav_elementos{
+        width: 55%;
+ }
+}
+.logo{
+    width: 100%;
+    margin-bottom: 6px;
+}
+
+@media screen and( max-width: 767px) {
+    nav {
+        padding-top: 0px;
+        padding-left: 0px;
+        padding-right: 0px;
+        justify-content: space-around;
+    }
+    .logo {
+        width: 24vw;
+    }
+
+}
+#nav_elementos_redes {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 27%;
+    justify-content: space-around;
+    }
+
+    @media screen and(max-width:"767px"){
+        #nav_elementos_redes{
+            display: none;
+            width: 88%;
+            justify-content: space-between;
+        }
+        .line-4-copy-2 {
+            display: none;
+        }
+    }
+
+#nav_redes {
+    color: #1A83B0;
+    font-size: 1.4vw;
+    align-self: center;
+}
+
+#nav_search {
+    color: #1A83B0;
+    font-size: 1.4vw;	
+    transform: rotate(70deg);
+}
+
+@media screen and(max-width:"767px"){
+    #nav_search {
+        order: 2;
+        font-size: 1.2em;
+    }
+    #nav_desarrollador {
+        order: 1;
+    }
+    #nav_redes {
+        order: 3;
+        font-size: 2em;
+        margin-left: 3vw;
+    }
+}
+
+.nav_sesion {
+    display: flex;
+    flex-direction: row;
+}
+
+#nav_desarrollador{
+    height: 15px;	
+    width: 148px;	
+    color: #1E90BC;	
+    font-family: HarmoniaSansW01-Regular;	
+    font-size: 16px;	
+    line-height: 15px;
+    margin-top: 0.5rem;
+}
+
+#nav_registro {
+    height: 15px;	
+    width: 178px;	
+    color: #1E90BC;	
+    font-family: HarmoniaSansW01-Regular;	
+    font-size: 16px;	
+    line-height: 15px;
+    margin-top: 0.5rem;
+}
+
+
+hr {
+    width: 100%;
+    margin-top: 5px;
+    size: 40px;
+    color: #1E90BC;	
+    border-style: double;
+}
+.line-4-copy-2 {	
+    box-sizing: border-box;	
+    height: 35px;	
+    width: 1px;	
+    border: 0.7px 
+    solid #979797;
+}
+
+.line-5-copy-2 {
+    display: none;
+}
+
+@media screen and(max-width:"767px"){
+    .line-5-copy-2 {	
+        height: 45px;	
+        width: 5px;	
+        order: 4;
+        color: green;
+        border: 3px 
+        solid #979797;
+        display: contents;
+        background-color: red;
+    }
+}
+
+

@@ -1,0 +1,77 @@
+.oportunidades_parrafo {
+    width: 37%;
+    margin-left: 5.5%;
+    margin-top: 2vw;
+    color: #7F7F7F;	
+    text-align: left;
+    font-family: HarmoniaSansW01-Regular;	
+    font-size: 18px;	
+    line-height: 22px;
+}
+
+.oportunidades  {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 4.7vw;
+    margin-top: 3vw;
+    width: 86%;
+    margin-left: 5.5%;
+
+}
+
+.opotunidades_contenedor {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.oportunidades_ciudad {
+    font-family: HarmoniaSansW06-Condensed;	
+    font-size: 14px;	
+    line-height: 17px;
+    color: #7F7F7F;
+}
+
+.oportunidades_titulo {
+    width: 380px;	
+    color: #0084B3;	
+    font-family: HarmoniaSansW01-Bold;	
+    font-size: 25px;	
+    line-height: 30px;
+    margin-top: 0.7vw;
+}
+
+.oportunidades_texto {
+    color: #7F7F7F;	
+    font-family: HarmoniaSansW01-Regular;	
+    font-size: 16px;	
+    line-height: 20px;
+    margin-top: 0.7vw;
+}
+.oportunidades_info {
+    display: flex;
+    flex-direction: row;
+    margin-top: 0.7vw;
+    flex-wrap: wrap;
+}
+
+.oportunidades_info_contenedor {
+    display: flex;
+    flex-direction: row;
+    margin-right: 2vw;
+    i {
+        color: #FFBA00;
+    }
+    p {
+        color: #7F7F7F;	
+        font-family: HarmoniaSansW01-Regular;	
+        font-size: 16px;	
+        line-height: 22px;
+        margin-left: 0.3vw;
+    }
+}
+
+.oportunidades_fecha {
+    color: #7F7F7F;
+    margin-top: 0.7vw;
+}

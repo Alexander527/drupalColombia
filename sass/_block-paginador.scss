@@ -1,0 +1,32 @@
+.pagination {
+    padding: 35px 0;
+    position: relative;
+    }
+    ul {
+      display: flex;
+      margin: 0 auto;
+      font-family: HarmoniaSansW01-Regular;
+      justify-content: center;
+      li {
+        display: inline;
+        position: relative;
+        color: rgba(0,118,161,0.7);	
+        font-size: 16px;	
+        line-height: 20px;	
+        text-align: center;
+        
+        a {
+            text-decoration: none;	
+            font-size: 16px;	
+            line-height: 20px;	
+            text-align: center;
+            margin: 0 0.7vw;
+            color: #0076A1;
+            font-style: normal;
+            font-weight: 100;
+            font-size: 18px;
+            line-height: 25px;
+        }
+      }
+    }
+    

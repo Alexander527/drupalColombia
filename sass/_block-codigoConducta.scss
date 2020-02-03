@@ -1,0 +1,26 @@
+.contenedor-codigo {
+    column-count:2;
+   column-gap: 40px;
+   width: 89%;
+   margin-left: 5.5%;
+   text-align: left;
+   color: #5B5B5B;	
+   font-family: HarmoniaSansW01-Regular;	
+   font-size: 18px;	
+   line-height: 25px;
+   margin-top: 3vw;
+   margin-bottom: 3vw;
+   background-image: url('../images/Group\ 13\ Copyz.png');
+   background-repeat: no-repeat;
+   background-position: right;
+}
+
+@media screen and(max-width:"767px") {
+    .contenedor-codigo {
+    column-count:1;
+    }
+}
+
+.titulos-codigo {
+    line-height: 38px;
+}

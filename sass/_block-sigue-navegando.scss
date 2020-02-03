@@ -1,0 +1,51 @@
+.sigue_navegando {
+    margin-top: 10vw;
+    text-align: left;
+
+}
+
+.sigue_navegando_contenedor {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 30%;
+    margin-left: 13vw;
+    h1 {
+        color: #1E90BC;	
+        font-family: HarmoniaSansW01-Regular;	
+        font-size: 50px;	
+        line-height: 61px;	
+        text-align: center;
+        font-weight: 200;
+        margin-bottom: 1vw;
+    }
+}
+
+.imagen_contenedor {
+    width: 100%;
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+.navegando_imagen {
+    margin-top: 2.8vw;
+}
+
+.navegando_texto {
+    position: absolute;
+    color: #B95800;	
+    font-family: HarmoniaSansW01-Regular;	
+    font-size: 30px;	
+    line-height: 37px;	
+    text-align: center;
+    top: 10.8vw;
+    left: 46.2vw;
+
+    strong {
+        font-size: 100px;
+        font-weight: 400;
+    }
+    span {
+        font-size: 50px;
+    }
+}
