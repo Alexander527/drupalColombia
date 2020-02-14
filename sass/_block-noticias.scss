@@ -80,6 +80,11 @@
        line-height: 30px;
        margin-top: 5px;
        margin-bottom: 5px;
+
+       @media screen and(max-width:"767px") {
+        font-size: 5vw;
+        line-height: 7vw;
+    }
    }
    
    .texto_noticias {
@@ -87,6 +92,11 @@
        font-family: HarmoniaSansW01-Regular;	
        font-size: 20px;	
        line-height: 24px;
+
+       @media screen and(max-width:"767px") {
+           font-size: 4.5vw;
+           line-height: 7vw;
+       }
    }
    
    #line-4-copy-3 {

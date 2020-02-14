@@ -7,10 +7,63 @@
     <link rel="stylesheet" href="fuentes/fuentes.css">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="fontawesome/css/all.css"> 
+    <script src="js/dropdown.js"></script>
     <title>Oportunidades de empleo</title>
 </head>
 <body>
     <div id="contenedor">
+        <input type="search" placeholder="Buscar" class="search">
+            <section class="dropdown">
+                <article class="dropdown_articulo">
+                    <h2>
+                        Nuestra Asociación
+                    </h2>
+                    <a href="queEsLaAsociacion.html">¿Qué es la Asociación Drupal Colombia?</a>
+                    <a href="nuestrosSocios.html">Nuestros socios</a>
+                    <a href="nuestraAsociacionVentajas.html">Ventajas de hacer parte de nuestra asociación</a>
+                    <a href="comoHacerParte.html">¿Cómo hacer parte de la Asociación?</a>
+                    <a href="#">Consejo directivo</a>
+                    <a href="codigoDeConducta.html">Código de conducta y estatutos</a>
+                    <a href="#">Drupal Groups</a>
+                    <a href="eventos.html">Eventos</a>
+                    <a href="badgesParaSocios.html">Badges para socios</a>
+                    <a href="apoyeLaAsociacion.html">Apoye a la asociación</a>
+                </article>
+                <div>
+                        <article class="dropdown_articulo">
+                            <h2>
+                                Servicios
+                            </h2>
+                            <a href="proveedoresDrupal.html">Proveedores de soluciones Drupal</a>
+                            <a href="#">Proveedores de entretenimiento</a>
+                        </article>
+                        <article class="dropdown_articulo">
+                            <h2>
+                                <a href="marcasDrupal.html">Marcas que adoptaron Drupal</a>
+                            </h2>
+                        </article>
+                        <article class="dropdown_articulo">
+                            <h2>
+                                Contacto y FAQ'S
+                            </h2>
+                            <a href="#">Contáctenos</a>
+                            <a href="formularioRegistro.html">Formulario de registro</a>
+                            <a href="faqs.html">FAQ'S</a>
+                        </article>
+                </div>
+                <article class="dropdown_articulo">
+                    <h2>
+                        Recursos para desarrolladores
+                    </h2>
+                    <a href="#">Guías de usuario</a>
+                    <a href="#">Documentación</a>
+                    <a href="#">Contribuir a la comunidad</a>
+                    <a href="#">Descarga Drupal</a>
+                    <a href="#">Distribuciones - profiles</a>
+                    <a href="oportunidadDeEmpleo.html">Oportunidades de empleo</a>
+                    <a href="blog.html">Blog</a>
+                </article>
+               </section>
         <header id="header_2"> 
             <div id="nav_2">
                 <div>
@@ -27,7 +80,7 @@
                     </div>
                     <div class="line-4-copy-2"></div>
                     <div>
-                        <p id="nav_desarrollador">¿Eres desarrollador?</p>
+                        <a href="eresDesarrolladorInterna.html" id="nav_desarrollador">¿Eres desarrollador?</a>
                         <hr>
                     </div>
                     <div class="line-4-copy-2"></div>
@@ -35,9 +88,10 @@
                         <i class="fas fa-user" id="nav_redes"></i>
                         <p id="nav_registro">Inicia sesión / Registrate</p>
                     </div>
-                    <span class="fas fa-bars" id="nav_redes"></span>
+                    <span class="fas fa-bars nav-dropdown-menu" id="nav_redes"></span>
                 </div>
             </div>
+            
             <ul class="breadcrums">
                 <li class="breadcrums__item">
                     <a href="index.html" class="breadcrums__link">Inicio</a>
@@ -59,7 +113,7 @@
                         Barrancabermeja
                     </div>
                     <h2 class="aplicar_titulo">
-                        Diseñador con conocimientos </br>en Ux y UI
+                        Diseñador con conocimientos en Ux y UI
                     </h2>
                     <div class="aplicar_logo">
                         <img src="images/ΩΩz.png" alt="" width="60px">
@@ -104,7 +158,7 @@
                     </div>
                     <input type="button" value="Aplicar a la vacante" class="aplicar_boton">
                 </article>
-                <div>
+                <div class="aplicar_imagen_mobile">
                     <img src="images/Bitmap546.png" alt="">
                 </div>
             </section>
@@ -343,13 +397,13 @@
                 </li>
             </ul>
             <ul id="contenedor_redes_footer">
-                <li class="fab fa-facebook-f" id="redes_footer"></li>
+                <li class="fab fa-facebook-f redes_footer"></li>
                 <div class="line-4-copy-6"></div>
-                <li class="fab fa-twitter" id="redes_footer"></li>
+                <li class="fab fa-twitter redes_footer"></li>
                 <div class="line-4-copy-6"></div>
-                <li class="fab fa-instagram" id="redes_footer"></li>
+                <li class="fab fa-instagram redes_footer"></li>
                 <div class="line-4-copy-6"></div>
-                <li class="fab fa-linkedin-in" id="redes_footer"></li>
+                <li class="fab fa-linkedin-in redes_footer"></li>
             </ul>
             <div class="line-4-copy-7"></div>
             <div id="copyright">Copyright 2019 Drupal Colombia. Todos los derechos reservados. <a href>Política de privacidad</a></div>

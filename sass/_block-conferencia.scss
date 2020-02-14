@@ -68,6 +68,7 @@
     .texto-conferencia {
         text-align: left;
         width: 86%;
+        height: auto;
         margin-left: 7%;
         margin-top: 3vw;
         
@@ -91,8 +92,18 @@
 
 @media screen and(max-width:"767px") {
     .conferencia-horario {
-        height: 40vw;
-        font-size: 3vw;
-        flex-direction: column;
+        display: flex;
+        font-size: 3.5vw;
+        justify-content: left;
+        flex-direction: row;
+        flex-wrap: wrap;
+        height: auto;
+        padding: 3vw;
+        padding-left: 7vw;
+
+        p {
+            margin-right: 12vw;
+            margin-bottom: 2vw;
+        }
     }
 }

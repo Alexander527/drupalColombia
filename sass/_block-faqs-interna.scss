@@ -1,3 +1,4 @@
+
 .faqs_interna {
     background-image: url("/images/Group\ 13\ Copyz.png");
     background-repeat: no-repeat;
@@ -5,6 +6,7 @@
     background-size: 30vw;
 }
 .faqs_titulo_3 {
+    width: 70%;
     color: #5B5B5B;	
     font-family: HarmoniaSansW01-Regular;	
     font-size: 50px;
@@ -12,4 +14,9 @@
     margin-top: 1.6vw;	
     line-height: 50px;
     text-align: left;
+    
+    @media screen and(max-width:"767px") {
+        width: 94%;
+        font-size: 5vw;
+    }
 }

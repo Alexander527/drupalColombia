@@ -5,6 +5,10 @@
     width: 60%;
     margin-left: 20%;
     justify-content: space-around;
+
+    @media screen and(max-width:"767px") {
+        flex-direction: column;
+    }
 }
 
 .filtrar_contenedor {
@@ -18,7 +22,15 @@
     border-radius: 8px;	
     background-color: #FFFFFF;	
     box-shadow: 0 2px 4px 0 rgba(0,0,0,0.3);
+
+    @media screen and(max-width:"767px") {
+        width: 100%;
+        margin-top: 3vw;
+        padding-left: 4vw;
+        padding-right: 4vw;
+    }
 }
+
 
 
 .filtrar_texto {	
@@ -26,6 +38,10 @@
     font-family: HarmoniaSansW01-Regular;	
     font-size: 1.1vw;	
     line-height: 24px;
+
+    @media screen and(max-width:"767px") {
+        font-size: 4vw;
+    }
 }
 
 #caret-down {
@@ -43,4 +59,9 @@
     font-size: 20px;	
     line-height: 24px;	
     text-align: center;
+
+    @media screen and(max-width:"767px") {
+        margin-top: 3vw;
+        align-self: center;
+    }
 }

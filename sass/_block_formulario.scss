@@ -14,6 +14,16 @@
     }
 }
 
+@media screen and(max-width:"767px") {
+    .registro_contenedor {
+        flex-direction: column;
+
+        p {
+            width: 94%;
+        }
+    }
+}
+
 .formulario {
     text-align: left;
     margin-left: 1.4vw;
@@ -33,7 +43,32 @@
 
     .derecha {
         width: 94%;
-        justify-self: flex-end;
+        margin-left: 6%;
+    }
+}
+
+@media screen and(max-width:"767px") {
+    .formulario {
+        grid-template-columns: repeat(1,1fr);
+        width: 94%;
+    
+
+    .extendido {
+        grid-column-start: 1;
+        grid-column-end:1 ;
+    }
+    .izquierda {
+        width: 100%;
+        grid-column-start: 1;
+        grid-column-end: 3;
+    }
+    .derecha {
+        width: 100%;
+        grid-column-start: 1;
+        grid-column-end: 3;
+        margin-left: 0px;
+    }
+
     }
 }
 
@@ -54,7 +89,19 @@
     }
 }
 
-
+@media screen and(max-width:"767px") {
+    .formulario_contenedor {
+        margin-top: 4vw;
+        margin-bottom: 4vw;
+        input {
+            grid-column-start: 1;
+            grid-column-end: 3;
+            margin-top: 4vw;
+            height: 12vw;
+            font-size: 4.2vw;
+        }
+    }
+}
 .formulario_titulo {
     color: #5B5B5B;	
     font-family: HarmoniaSansW01-Regular;	
@@ -62,6 +109,14 @@
     line-height: 24px;
 }
 
+@media screen and(max-width:"767px") {
+    .recaptcha {
+        grid-column-start: 1;
+        grid-column-end: 3;
+        margin-top: 6vw;
+        margin-bottom: 6vw;
+    }
+}
 .formulario_boton{
     font-family: Helvetica;	
     font-size: 25px;	
@@ -75,4 +130,13 @@
     align-self: center;
     justify-self: center;
     text-align: center;
+
+    @media screen and(max-width:"767px") {
+        width: 36vw;
+        height: 12vw;
+        font-size: 6vw;
+        margin-bottom: 5vw;
+
+
+    }
 }

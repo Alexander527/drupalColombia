@@ -7,6 +7,10 @@
     font-family: HarmoniaSansW01-Regular;	
     font-size: 18px;	
     line-height: 22px;
+
+    @media screen and(max-width:"767px") {
+        width: 89%;
+    }
 }
 
 .oportunidades  {
@@ -17,12 +21,22 @@
     width: 86%;
     margin-left: 5.5%;
 
+    @media screen and(max-width:"767px") {
+        grid-template-columns: repeat(1, 1fr);
+        margin-top: 7vw;
+    }
+
 }
 
 .opotunidades_contenedor {
     display: flex;
     flex-direction: column;
     text-align: left;
+
+    @media screen and(max-width:"767px") {
+        margin-bottom: 5vw;
+
+    }
 }
 
 .oportunidades_ciudad {
@@ -39,6 +53,10 @@
     font-size: 25px;	
     line-height: 30px;
     margin-top: 0.7vw;
+
+    @media screen and(max-width:"767px") {
+        width: 100%;
+    }
 }
 
 .oportunidades_texto {
@@ -59,6 +77,7 @@
     display: flex;
     flex-direction: row;
     margin-right: 2vw;
+    margin-top: 2vw;
     i {
         color: #FFBA00;
     }
@@ -70,7 +89,6 @@
         margin-left: 0.3vw;
     }
 }
-
 .oportunidades_fecha {
     color: #7F7F7F;
     margin-top: 0.7vw;

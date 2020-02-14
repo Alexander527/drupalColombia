@@ -108,6 +108,29 @@
 .breadcrums__link--active {
     font-weight: 600;
 }
+
+#contenido_banner {
+    width: 53%;
+    text-align: left;
+    position: absolute;
+    top: 11vw;
+    display: flex;
+    flex-direction: row;
+    margin-left: 12vw;
+}
+
+@media screen and(max-width:"767px") {
+    #contenido_banner {
+        width: 52%;
+        text-align: left;
+        position: absolute;
+        top: 25vw;
+        display: flex;
+        flex-direction: row;
+        margin-left: 36vw;
+    }
+}
+
 #titulo_banner {
     color: #5B5B5B;	
     font-family: HarmoniaSansW01-Regular;	
@@ -144,27 +167,5 @@
         border-left: 1px solid #BABABA;
         padding: 0.8vw;
         padding-left: 2vw;
-    }
-}
-
-#contenido_banner {
-    width: 53%;
-    text-align: left;
-    position: absolute;
-    top: 11vw;
-    display: flex;
-    flex-direction: row;
-    margin-left: 12vw;
-}
-
-@media screen and(max-width:"767px") {
-    #contenido_banner {
-        width: 52%;
-        text-align: left;
-        position: absolute;
-        top: 25vw;
-        display: flex;
-        flex-direction: row;
-        margin-left: 36vw;
     }
 }

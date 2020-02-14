@@ -65,9 +65,14 @@
 @media screen and(max-width:"767px") {
     .lista_footer {
         margin-top: 3vw;
-        margin-bottom: 3vw;
+        margin-bottom: 4vw;
         display: flex;
         align-items: center;
+    }
+
+    i {
+        font-size: 4vw;
+        padding-top: 1vw;
     }
 }
 
@@ -77,11 +82,12 @@
     font-size: 1.3em;	
     line-height: 21px;
     margin-left: 5px;
-}
+} 
+
 
 @media screen and(max-width:"767px") {
     .texto_footer {
-        font-size: 1.46em;
+        font-size: 6vw;
         padding-left: 1vw;
     }
 }
@@ -103,13 +109,13 @@
     }    
 }
 
-#redes_footer {
+.redes_footer {
     color: #1A83B0;
     font-size: 27px;
 }
 
 @media screen and(max-width:"767px") {
-    #redes_footer {
+    .redes_footer {
         font-size: 2em;
         align-self: center;
         vertical-align: middle;

@@ -16,15 +16,25 @@
     font-family: HarmoniaSansW06-Condensed;	
     font-size: 25px;	
     line-height: 29px;
-    color: #6D7278
+    color: #6D7278;
+
+    @media screen and(max-width:"767px") {
+        font-size: 4.5vw;
+    }
 }
 
 .aplicar_titulo {
+    width: 70%;
     color: #0084B3;	
     font-family: HarmoniaSansW01-Bold;	
     font-size: 50px;	
     line-height: 62px;
     margin-top: 0.8vw;
+
+    @media screen and(max-width:"767px") {
+        font-size: 6vw;
+        line-height: 8vw;
+    }
 }
 
 .aplicar_logo {
@@ -41,6 +51,11 @@
     line-height: 30px;
     margin-left: 1vw;
     vertical-align: bottom;
+
+    @media screen and(max-width:"767px") {
+        font-size: 4vw;
+        margin-left: 3vw;
+    }
 }
 
 .aplicar_texto {
@@ -50,6 +65,12 @@
     line-height: 33px;
     margin-top: 1.6vw;
     width: 90%;
+
+    @media screen and(max-width:"767px") {
+        font-size: 4vw;
+        line-height: 25px;
+        width: 96%;
+    }
 }
 .aplicar-line-2 {
     box-sizing: border-box;	
@@ -59,6 +80,10 @@
     border-radius: 4px;
     margin-top: 9vw;
     margin-left: 5.5%;
+    
+    @media screen and(max-width:"767px") {
+        width: 52vw;
+    }
 }
 
 .aplicar_info {
@@ -67,6 +92,10 @@
     margin-top: 2vw;
     flex-wrap: wrap;
     width: 80%;
+    
+    @media screen and(max-width:"767px") {
+        width: 100%;
+    }
 }
 
 .aplicar_info_contenedor {
@@ -88,18 +117,46 @@
     }
 }
 
+@media screen and(max-width:"767px") {
+    .aplicar_info_contenedor {
+        display: flex;
+        flex-direction: row;
+        margin-top: 2vw;
+        margin-right: 5vw;
+        margin-bottom: 1vw;
+        font-weight: 100;
+        i {
+            color: #FFBA00;
+            font-size: 4vw;
+            margin-right: 1vw;
+        }
+        p {
+            color: #7F7F7F;	
+            font-family: HarmoniaSansW01-Regular;	
+            font-size: 4vw;	
+            line-height: 22px;
+            margin-left: 0.3vw;
+        }
+    }
+}
+
 .aplicar_fecha {
     color: #7F7F7F;
     margin-top: 0.7vw;
     font-family: HarmoniaSansW06-Condensed;	
     font-size: 25px;	
     line-height: 29px;
+
+    @media screen and(max-width:"767px") {
+        font-size: 3.5vw;
+    }
 }
+
 
 .aplicar_boton {
     margin-top: 2vw;
     height: 100px;	
-    width: 600px;	
+    width: 36vw;	
     font-family: HarmoniaSansW01-Regular;	
     font-size: 50px;	
     line-height: 61px;
@@ -107,8 +164,24 @@
     background-color: #FFBA00;
     color: #fff;
     align-self: center;
+
+    @media screen and(max-width:"767px") {
+        width: 94%;
+        height: auto;
+        margin-top: 7vw;
+        margin-bottom: 4vw;
+        padding: 3.5vw;
+        font-size: 6vw;
+        line-height: 20px;
+        align-self: flex-start;
+    }
 }
 
+@media screen and(max-width:"767px") {
+    .aplicar_imagen_mobile {
+        display: none;
+    }
+}
 .aplicar_ofertas {
     color: #5B5B5B;	
     font-family: HarmoniaSansW01-Regular;	
@@ -118,6 +191,10 @@
     font-weight: 200;
     margin-left: 5.5%;
     margin-top: 1vw;
+
+    @media screen and(max-width:"767px") {
+        font-size: 7vw;
+    }
 }
 
 .oportunidades_internas  {
@@ -128,4 +205,7 @@
     width: 86%;
     margin-left: 5.5%;
 
+    @media screen and(max-width:"767px") {
+        grid-template-columns: repeat(1, 1fr);
+    }
 }

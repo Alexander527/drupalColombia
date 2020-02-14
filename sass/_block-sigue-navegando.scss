@@ -19,6 +19,18 @@
         font-weight: 200;
         margin-bottom: 1vw;
     }
+
+    form {
+        align-self: center;
+    }
+
+    @media screen and(max-width:"767px") {
+        width: 74%;
+        h1 {
+            font-size: 9vw;
+            margin-bottom: 5vw;
+        }
+    }
 }
 
 .imagen_contenedor {
@@ -26,9 +38,17 @@
     position: relative;
     display: inline-block;
     text-align: center;
+
+    @media screen and(max-width:"767px") {
+        margin-bottom: 52vw;
+    }
 }
 .navegando_imagen {
     margin-top: 2.8vw;
+
+    @media screen and(max-width:"767px") {
+        width: 100%;
+    }
 }
 
 .navegando_texto {
@@ -47,5 +67,21 @@
     }
     span {
         font-size: 50px;
+    }
+
+    @media screen and(max-width:"767px") {
+        width: 100%;
+        top: 40vw;
+        left: 0px;
+        font-size: 7vw;
+        line-height: 9vw;
+
+        strong {
+            font-size: 19vw;
+            font-weight: 400;
+        }
+        span {
+            font-size: 9vw;
+        }
     }
 }
