@@ -53,10 +53,10 @@
 }
 
 .search {
-    width: 72%;
+    width: 52%;
     height: 5vw;
     position: absolute;
-    top: 5.2vw;
+    top: 4.7vw;
     align-self: center;
     padding-left: 3vw;
     padding-right: 1vw;
@@ -66,12 +66,14 @@
     line-height: 35px;
     color: #FFFFFF;
     border-bottom: #FFFFFF;
+    transform: translateY(100%);
     transition: all 0.8s;
     z-index: 2;
     opacity: 0;
 
     &.search-active {
         opacity: 1;
+        transform: translateY(0);
     }
 }
 

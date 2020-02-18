@@ -6,6 +6,10 @@
     text-align: center;
     width: 100%;
     margin-top: 2vw;
+
+    img {
+        width: 100%;
+    }
 }
 
 #imagen_apoya_mobile {
@@ -15,6 +19,10 @@
 @media screen and(max-width:"767px") {
     #imagen_apoya {
         display: none;
+
+    img {
+        width: 100%;
+    }
     }
     #imagen_apoya_mobile {
         position: relative;
