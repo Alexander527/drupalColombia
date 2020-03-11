@@ -23,6 +23,10 @@
     background-color: #FFFFFF;	
     box-shadow: 0 2px 4px 0 rgba(0,0,0,0.3);
 
+    i{
+        color: #FFBA00;
+    }
+
     @media screen and(max-width:"767px") {
         width: 100%;
         margin-top: 3vw;
@@ -44,9 +48,6 @@
     }
 }
 
-#caret-down {
-    color: #FFBA00;
-}
 
 .filtrar_boton {
     height: 40px;	

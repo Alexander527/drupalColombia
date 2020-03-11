@@ -3,6 +3,10 @@
     position: relative;
     display: inline-block;
     text-align: center;
+
+    img{
+        width: 100%;
+    }
 }
 #banner_texto {
     position: absolute;
@@ -44,6 +48,7 @@
     font-size: 2.4vw;		
     text-align: left;
     margin-left: 0.7vw;
+    margin-bottom: 1vw;
 }
 #banner_ipsum {
     height: 116px;	

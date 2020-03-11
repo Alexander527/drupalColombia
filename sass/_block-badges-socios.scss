@@ -65,6 +65,12 @@
     flex-direction: row;
     justify-content: center;
     margin-top: 2vw;
+
+    span {
+        color: #0076A1;
+    font-size: 3em; 
+    }
+    
 }
 
 @media screen and(max-width:"767px") {
@@ -72,10 +78,6 @@
         margin-bottom: 7vw;
     }
 
-}
-#icono-badges {
-    color: #0076A1;
-    font-size: 3em;
 }
 .descargar-imagen {
     color: #0076A1;	

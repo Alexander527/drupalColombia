@@ -25,6 +25,10 @@
     font-family: HarmoniaSansW01-Regular;	
     font-size: 1vw;
     text-align: left;
+
+    p:first-child {
+        margin-bottom: 1vw;
+    }
 }
 
 @media screen and(max-width:"767px") {

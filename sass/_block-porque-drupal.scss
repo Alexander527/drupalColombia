@@ -3,6 +3,10 @@
     display: inline-block;
     text-align: center;
     width: 100%;
+
+    img {
+        width: 100%;
+    }
 }
 
 #article_porque_drupal_mobile {
@@ -67,6 +71,10 @@
     margin-bottom: 1.6vw;
     font-size: 2.7vw;	
     text-align: center;
+
+    strong {
+        font-weight: 800;
+    }
 }
 
 @media screen and(max-width:"767px") {
@@ -120,6 +128,10 @@
     border-radius: 10px;
     padding-top: 0.8vw;
     margin: 0 auto;	
+
+    span{
+        font-weight: bolder;
+    }
 }
 
 @media screen and(max-width:"767px") {

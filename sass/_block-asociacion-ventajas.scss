@@ -47,6 +47,10 @@
     font-size: 1vw;
     text-align: left;
 
+    p{
+        margin-bottom: 1vw;
+    }
+
     @media screen and(max-width:"767px") {
         font-size: 4.2vw;
     }
@@ -58,6 +62,10 @@
     margin-top: 1vw;
     width: 89%;
     margin-bottom: 17vw;
+
+    img{
+        width: 100%;
+    }
 }
 
 @media screen and(max-width:"767px") {

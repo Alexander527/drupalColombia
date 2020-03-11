@@ -12,6 +12,10 @@
     text-align: left;
     margin-left: 5.5%;
     margin-top: 1.7vw;
+
+    img {
+        width: 80%;
+    }
 }
 
 .empresarial_fecha {
@@ -107,6 +111,11 @@
     margin-top: 0.3vw;
     text-align: left;
     justify-content: left;
+
+    li{
+        color: #1A83B0;
+        font-size: 1.4vw;
+    }
 }
 @media screen and(max-width:"767px") {
     .empresarial_redes {
@@ -125,11 +134,6 @@ margin-left: 1vw;
    }
 }
 
-#nav_redes_2 {
-    color: #1A83B0;
-    font-size: 1.4vw;
-
-}
 
 .line-4-empresarial {
     height: 0.3px;	
@@ -169,6 +173,10 @@ margin-left: 1vw;
 .empresarial_imagen {
     margin-top: 0.8vw;
     margin-bottom: 0.8vw;
+
+    img{
+        width: 100%;
+    }
 }
 
 .empresarial_autor {

@@ -4,7 +4,11 @@
     font-size: 2.7vw;
     margin-top: 2.5vw;
     margin-bottom: 3vw;
+    font-weight: 100;
 
+    strong{
+        font-weight: 900;
+    }
 }
 
 @media screen and (max-width:"767px") {
@@ -74,8 +78,13 @@
     }
 }
 
-.contenido_que_es_drupal .imagenes {
- width: 3.5vw;
+.contenido_que_es_drupal {
+    .imagenes {
+    width: 3.5vw;
+    }
+    .imagenes_analisis {
+        margin-bottom: 1.4vw;
+    }
 }
 
 @media screen and(max-width:"767px"){

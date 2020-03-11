@@ -21,6 +21,15 @@
 
 }
 
+@media screen and(max-width:"767px") {
+    .dropdown{
+    display: flex;
+    flex-direction: column;
+    margin-top: 5.2vw;
+    
+    }
+}
+
 .dropdown_articulo {
     display: flex;
     flex-direction: column;
@@ -50,6 +59,22 @@
         margin-bottom: 2vw;
     }
 
+}
+@media screen and(max-width:"767px") {
+    .dropdown_articulo{
+        h2{
+            width: 100%;
+            font-size: 7vw;
+            font-weight: 100;
+            line-height: 40pt;
+            margin: 6vw 4vw;
+        }
+    
+        a{
+            display: none;
+        }
+    
+    }
 }
 
 .search {

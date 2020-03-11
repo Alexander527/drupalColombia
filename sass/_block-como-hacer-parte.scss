@@ -87,6 +87,10 @@
 
 #imagen_drupalcamp {
     margin-top: 3vw;
+    
+    img{
+        width: 100%;
+    }
 }
 
 @media screen and(max-width:"767px") {
@@ -104,6 +108,10 @@
     #imagen_drupalcamp_mobile {
     margin-top: 3vw;
     display: contents;
+
+    img{
+        width: 100%;
+    }
     }
     
 }
@@ -117,11 +125,11 @@
     margin-bottom: 1.6vw;
     justify-content: right;
     align-self: flex-end;
-    color: #A7A7A7;	
     font-family: HarmoniaSansW01-Regular;	
     font-size: 18px;	
     line-height: 22px;
     padding-left: 1.2vw;
+    
 }
 
 

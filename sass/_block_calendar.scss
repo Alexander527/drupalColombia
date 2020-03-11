@@ -1,0 +1,89 @@
+.calendar__contendor{
+    display: flex;
+    flex-direction: row;
+    width: 95%;
+    margin-left: 2.5%;
+    margin-top: 3.7vw;
+    padding: 20px 10px;
+}
+.calendar {
+    width: 54%;
+    padding: 20px 10px;
+    
+}
+
+.calendar__header {
+ display: flex;
+ justify-content: center;
+
+ .control{
+     font-size: 30px;
+     font-weight: 400;
+     background-color: transparent;
+     border: none;
+     cursor: pointer;
+     padding: 0 5px;
+ }
+}
+.mounth-name{
+    width: 303px;
+    color: #000000;
+    font-family: HarmoniaSansW01-Regular;
+    font-size: 40px;
+    letter-spacing: -0.29px;
+    line-height: 48px;
+    text-align: center;
+    text-shadow: 0 2px 4px 0 rgba(0,0,0,0.5);
+}
+
+.calendar-grid{
+    width: 100%;
+}
+.grid_header{
+ display: flex;
+ justify-content: space-around;
+ margin-bottom: 0.6vw;
+ margin-top: 1.4vw;
+}
+.grid__cell--header{
+    height: 25px;
+  width: 64px;
+  color: #6D6D6D;
+  font-family: HarmoniaSansW01-Bold;
+  font-size: 18px;
+  line-height: 23px;
+  text-align: center;
+}
+
+.grid_body{
+    display: grid;
+    grid-template-columns: repeat(7, 1fr); 
+   
+}
+
+.grid__cell--body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 4.5vw;
+  color: #1E90BC;
+  font-family: HarmoniaSansW01-Regular;
+  font-size: 50px;
+  text-align: center;
+  margin: 4px;
+  cursor: pointer;
+}
+
+.grid__cell--active {
+    border: 1px solid #1E90BC;
+    border-radius: 50%;
+}
+
+.grid__cell--disable {
+    opacity: 0.1;
+    cursor: unset;
+}
+.calendar__eventos{
+    background-color: bisque;
+    width: 40%;
+}
