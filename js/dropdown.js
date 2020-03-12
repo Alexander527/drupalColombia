@@ -1,6 +1,6 @@
 document.addEventListener( 'DOMContentLoaded', function () {
     let btnDropdown = document.querySelector('.nav-dropdown-menu');
-    let dropdownMenu = document.querySelector('.dropdown');
+    let dropdownMenu = document.querySelector('.drop_down');
     let iconDropdown = document.querySelector('.fas fa-bars');
 
     btnDropdown.addEventListener('click', function () {
