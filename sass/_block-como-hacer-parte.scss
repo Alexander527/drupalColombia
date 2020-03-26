@@ -65,6 +65,61 @@
     }
 }
 
+.container__sent {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+}
+
+.container__sent--text {
+    width: 40vw;
+    color: #FFFFFF;
+    font-family: HarmoniaSansW01-Regular;
+    font-size: 45px;
+    letter-spacing: 0;
+    line-height: 45px;
+    text-align: center;
+}
+
+.container__sent--thanks {
+    margin: 2vw;
+    color: #FFFFFF;
+    font-family: HarmoniaSansW01-Regular;
+    font-size: 30px;
+    letter-spacing: 0;
+    line-height: 45px;
+    text-align: center;
+}
+
+.container__sent--button {
+    height: 50px;	
+    width: 105px;	
+    border-radius: 8px;	
+    border: 1px solid #FFBA00;
+    background-color: #FFBA00;
+    color: #FFFFFF;	
+    font-family: HarmoniaSansW01-Bold;	
+    font-size: 20px;	
+    line-height: 24px;
+    cursor: pointer;
+}
+
+.container__sent--button:hover {
+    width: 110px;
+    font-size: 21px;
+}
+
+@media screen and(max-width:"767px") {
+    .container__sent--button {
+        margin-top: 5vw;
+        margin-bottom: 3vw;
+        height: 10vw;	
+        width: 20vw;	
+    }
+}
+
 .iconos-numeros {
     margin-right: 2vw;
 }

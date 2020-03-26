@@ -109,8 +109,14 @@
 }
 
 .redes_footer {
+    text-decoration: none;
     color: #1A83B0;
     font-size: 27px;
+}
+
+.redes_footer:hover {
+    color: #5AB0CF;
+    font-size: 29px;
 }
 
 @media screen and(max-width:"767px") {

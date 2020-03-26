@@ -4,11 +4,12 @@
   width: 360px;
   border: 1.6px solid #f7b500;
   border-radius: 4px;
-  margin-top: 3vw;
+  margin-top: 5vw;
   margin-left: 5.5%;
 
   @media screen and(max-width:"767px") {
     width: 47vw;
+    margin-top: 10vw;
   }
 }
 

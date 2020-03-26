@@ -170,6 +170,12 @@ justify-content: space-between;
     }
 
 }
+
+.fa-user {
+    color: #1E90BC;	
+    align-self: center;
+    font-size: 1.6vw;
+}
 #nav_registro {
     height: 15px;	
     width: 178px;	
@@ -178,7 +184,7 @@ justify-content: space-between;
     font-size: 16px;	
     line-height: 15px;
     margin-top: 0.5rem;
-
+    cursor: pointer;
 }
 
 

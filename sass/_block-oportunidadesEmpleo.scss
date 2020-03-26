@@ -54,6 +54,10 @@
     line-height: 30px;
     margin-top: 0.7vw;
 
+    a {
+        text-decoration: none;
+        color: #0084B3;	
+    }
     @media screen and(max-width:"767px") {
         width: 100%;
     }
@@ -95,3 +99,4 @@
     color: #7F7F7F;
     margin-top: 0.7vw;
 }
+

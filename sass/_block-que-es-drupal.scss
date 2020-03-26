@@ -84,13 +84,20 @@
     }
     .imagenes_analisis {
         margin-bottom: 1.4vw;
+        width: 3.5vw;
     }
 }
 
 @media screen and(max-width:"767px"){
-    .contenido_que_es_drupal .imagenes {
-        width: 28%;
-        margin-bottom: 5vw;
-       }
-
+    
+       .contenido_que_es_drupal {
+        .imagenes {
+            width: 14vw;
+            margin-bottom: 8.4vw;
+        }
+        .imagenes_analisis {
+            margin-bottom: 8.4vw;
+            width: 14vw;
+        }
+    }
 }

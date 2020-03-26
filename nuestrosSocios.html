@@ -13,57 +13,73 @@
 <body>
     <div id="contenedor">
         <input type="search" placeholder="Buscar" class="search">
-            <section class="dropdown">
-                <article class="dropdown_articulo">
-                    <h2>
-                        Nuestra Asociación
-                    </h2>
-                    <a href="queEsLaAsociacion.html">¿Qué es la Asociación Drupal Colombia?</a>
-                    <a href="nuestrosSocios.html">Nuestros socios</a>
-                    <a href="nuestraAsociacionVentajas.html">Ventajas de hacer parte de nuestra asociación</a>
-                    <a href="comoHacerParte.html">¿Cómo hacer parte de la Asociación?</a>
-                    <a href="#">Consejo directivo</a>
-                    <a href="codigoDeConducta.html">Código de conducta y estatutos</a>
-                    <a href="#">Drupal Groups</a>
-                    <a href="eventos.html">Eventos</a>
-                    <a href="badgesParaSocios.html">Badges para socios</a>
-                    <a href="apoyeLaAsociacion.html">Apoye a la asociación</a>
-                </article>
-                <div>
-                        <article class="dropdown_articulo">
-                            <h2>
-                                Servicios
-                            </h2>
-                            <a href="proveedoresDrupal.html">Proveedores de soluciones Drupal</a>
-                            <a href="#">Proveedores de entretenimiento</a>
-                        </article>
-                        <article class="dropdown_articulo">
-                            <h2>
-                                <a href="marcasDrupal.html">Marcas que adoptaron Drupal</a>
-                            </h2>
-                        </article>
-                        <article class="dropdown_articulo">
-                            <h2>
-                                Contacto y FAQ'S
-                            </h2>
-                            <a href="#">Contáctenos</a>
-                            <a href="formularioRegistro.html">Formulario de registro</a>
-                            <a href="faqs.html">FAQ'S</a>
-                        </article>
-                </div>
-                <article class="dropdown_articulo">
-                    <h2>
-                        Recursos para desarrolladores
-                    </h2>
-                    <a href="#">Guías de usuario</a>
-                    <a href="#">Documentación</a>
-                    <a href="#">Contribuir a la comunidad</a>
-                    <a href="#">Descarga Drupal</a>
-                    <a href="#">Distribuciones - profiles</a>
-                    <a href="oportunidadDeEmpleo.html">Oportunidades de empleo</a>
-                    <a href="blog.html">Blog</a>
-                </article>
-               </section>
+        <div class="drop_down">
+            <ul class="drop_down-contenedor">
+                <li>
+                    <div class="drop_down-title">
+                        <h2>Nuestra Asociación</h2>
+                        <div class="drop_down-button">+</div>
+                    </div>
+                    <ul class="drop_down-list">
+                        <li><a href="queEsLaAsociacion.html">¿Qué es la Asociación Drupal Colombia?</a></li> 
+                        <li><a href="nuestrosSocios.html">Nuestros socios</a></li>
+                        <li><a href="nuestraAsociacionVentajas.html">Ventajas de hacer parte de nuestra asociación</a></li>
+                        <li><a href="comoHacerParte.html">¿Cómo hacer parte de la Asociación?</a></li>
+                        <li><a href="#">Consejo directivo</a></li>
+                        <li><a href="codigoDeConducta.html">Código de conducta y estatutos</a></li>
+                        <li><a href="#">Drupal Groups</a></li>
+                        <li><a href="eventos.html">Eventos</a></li>
+                        <li><a href="badgesParaSocios.html">Badges para socios</a></li>
+                        <li><a href="apoyeLaAsociacion.html">Apoye a la asociación</a></li>
+                    </ul>
+                </li>
+                    <li>
+                        <div class="drop_down-title">
+                            <h2>Servicios</h2>
+                            <div class="drop_down-button">+</div>
+                        </div>
+                        <ul class="drop_down-list">
+                            <li><a href="proveedoresDrupal.html">Proveedores de soluciones Drupal</a></li>
+                            <li><a href="#">Proveedores de entretenimiento</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <div class="drop_down-title">
+                            <h2>Marcas que adoptaron Drupal</h2>
+                            <div class="drop_down-button">+</div>
+                        </div>
+                        <ul class="drop_down-list">
+                            <li><a href="marcasDrupal.html">Marcas Drupal</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <div class="drop_down-title">
+                            <h2>Contacto y FAQ'S</h2>
+                            <div class="drop_down-button">+</div>
+                        </div>
+                        <ul class="drop_down-list">
+                            <li><a href="#">Contáctenos</a></li>
+                            <li><a href="formularioRegistro.html">Formulario de registro</a></li>
+                            <li><a href="faqs.html">FAQ'S</a></li>
+                        </ul>
+                    </li>
+                <li>
+                    <div class="drop_down-title">
+                        <h2>Recursos para desarrolladores</h2>
+                        <div class="drop_down-button">+</div>
+                    </div>
+                    <ul class="drop_down-list">
+                        <li><a href="#">Guías de usuario</a></li>
+                        <li><a href="#">Documentación</a></li>
+                        <li><a href="#">Contribuir a la comunidad</a></li>
+                        <li><a href="#">Descarga Drupal</a></li>
+                        <li><a href="#">Distribuciones - profiles</a></li>
+                        <li><a href="oportunidadDeEmpleo.html">Oportunidades de empleo</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
         <header id="header_2">
             <img src="images/Group-10-Copy-2.png" alt="" class="imagen_header"> 
             <div id="nav_2">
@@ -74,9 +90,9 @@
                     <span class="fas fa-search" id="nav_search"></span>
                     <div class="line-4-copy-2"></div>
                     <div id="nav_elementos_redes">
-                        <a  href="#" class="fab fa-facebook-f"></a>
-                        <a  href="#" class="fab fa-twitter"></a>
-                        <a  href="#" class="fab fa-instagram"></a>
+                        <a  href="https://www.facebook.com/DrupalColombia" class="fab fa-facebook-f" target="blank"></a>
+                        <a  href="https://twitter.com/drupalco" class="fab fa-twitter" target="blank"></a>
+                        <a  href="https://www.instagram.com/drupalco/" class="fab fa-instagram" target="blank"></a>
                         <a  href="#" class="fab fa-linkedin-in"></a>
                     </div>
                     <div class="line-4-copy-2"></div>
@@ -213,13 +229,13 @@
                 </li>
             </ul>
             <ul id="contenedor_redes_footer">
-                <li class="fab fa-facebook-f redes_footer"></li>
+                <a  href="https://www.facebook.com/DrupalColombia" class="fab fa-facebook-f redes_footer" target="blank"></a>
                 <li class="line-4-copy-6"></li>
-                <li class="fab fa-twitter redes_footer"></li>
+                <a  href="https://twitter.com/drupalco" class="fab fa-twitter redes_footer" target="blank"></a>
                 <li class="line-4-copy-6"></li>
-                <li class="fab fa-instagram redes_footer"></li>
+                <a  href="https://www.instagram.com/drupalco/" class="fab fa-instagram redes_footer" target="blank"></a>
                 <li class="line-4-copy-6"></li>
-                <li class="fab fa-linkedin-in redes_footer"></li>
+                <a  href="#" class="fab fa-linkedin-in redes_footer"></a>
             </ul>
             <div class="line-4-copy-7"></div>
             <div id="copyright">Copyright 2019 Drupal Colombia. Todos los derechos reservados. <a href="#">Política de privacidad</a></div>

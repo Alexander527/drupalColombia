@@ -1,7 +1,7 @@
 .filtrar {
     display: flex;
     flex-direction: row;
-    margin-top: 2.5vw;
+    margin-top: 6.5vw;
     width: 60%;
     margin-left: 20%;
     justify-content: space-around;
@@ -18,10 +18,14 @@
     justify-content: space-between;
     align-items: center;
     height: 40px;	
-    width: 10vw;	
+    width: auto;	
     border-radius: 8px;	
     background-color: #FFFFFF;	
     box-shadow: 0 2px 4px 0 rgba(0,0,0,0.3);
+    color: #A0A0A0;	
+    font-family: HarmoniaSansW01-Regular;	
+    font-size: 1.1vw;	
+    line-height: 24px;
 
     i{
         color: #FFBA00;
@@ -48,6 +52,11 @@
     }
 }
 
+.filtrar_texto ul{
+    display: flex;
+    flex-direction: column;
+}
+
 
 .filtrar_boton {
     height: 40px;	
@@ -60,6 +69,7 @@
     font-size: 20px;	
     line-height: 24px;	
     text-align: center;
+    cursor: pointer;
 
     @media screen and(max-width:"767px") {
         margin-top: 3vw;

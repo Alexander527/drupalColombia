@@ -5,11 +5,18 @@
     margin-left: 2.5%;
     margin-top: 3.7vw;
     padding: 20px 10px;
+
+    @media screen and(max-width:"767px"){
+        flex-direction: column;
+    }
 }
 .calendar {
     width: 54%;
     padding: 20px 10px;
     
+    @media screen and(max-width:"767px"){
+        width: 100%;
+    }
 }
 
 .calendar__header {
@@ -44,7 +51,25 @@
  justify-content: space-around;
  margin-bottom: 0.6vw;
  margin-top: 1.4vw;
+ @media screen and(max-width:"767px"){
+     display: none;
+ }
 }
+
+.grid_header--mobile{
+    display: none;
+ 
+    @media screen and(max-width:"767px"){
+        display: flex;
+        justify-content: space-around;
+        margin-bottom: 2.6vw;
+        margin-top: 4.4vw;
+        font-size: 5vw;
+    }
+   }
+
+
+
 .grid__cell--header{
     height: 25px;
   width: 64px;
@@ -66,12 +91,17 @@
     justify-content: center;
     align-items: center;
     height: 4.5vw;
-  color: #1E90BC;
-  font-family: HarmoniaSansW01-Regular;
-  font-size: 50px;
-  text-align: center;
-  margin: 4px;
-  cursor: pointer;
+    color: #1E90BC;
+    font-family: HarmoniaSansW01-Regular;
+    font-size: 50px;
+    text-align: center;
+    margin: 4px;
+    cursor: pointer;
+
+  @media screen and(max-width:"767px"){
+    height: 8vw;
+    font-size: 30px;
+  }
 }
 
 .grid__cell--active {

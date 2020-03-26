@@ -39,6 +39,9 @@
     justify-content: space-between;
 }
 
+.imagen_header {
+    margin-top: 1.8vw;
+}
 @media screen and( max-width: 767px) {
     .imagen_header {
         order:2;
@@ -115,13 +118,14 @@
 }
 
 #contenido_banner {
-    width: 53%;
+    width: 76%;
     text-align: left;
     position: absolute;
-    top: 11vw;
+    justify-content: flex-end;
+    top: 15vw;
     display: flex;
     flex-direction: row;
-    margin-left: 12vw;
+    margin-left: 5vw;
 }
 
 @media screen and(max-width:"767px") {
@@ -129,7 +133,7 @@
         width: 52%;
         text-align: left;
         position: absolute;
-        top: 25vw;
+        top: 27vw;
         display: flex;
         flex-direction: row;
         margin-left: 36vw;
@@ -142,13 +146,14 @@
     font-size: 2.4vw;	
     font-weight: 200;
     margin-right: 2vw;
+    align-self: center;
 }
 
 @media screen and(max-width:"767px") {
     #titulo_banner {
         color: #5B5B5B;	
         font-family: HarmoniaSansW01-Regular;	
-        font-size: 3.4vw;	
+        font-size: 3vw;	
         margin-right: 2vw;
     }
 }
@@ -156,7 +161,8 @@
 #texto_banner {
     color: #6D7278;	
     font-family: HarmoniaSansW01-Regular;	
-    font-size: 1.1vw;	
+    font-size: 1.4vw;	
+    width: 29vw;
     line-height: 24px;
     border-left: 1px solid #BABABA;
     padding: 0.8vw;
@@ -168,6 +174,7 @@
         color: #6D7278;	
         font-family: HarmoniaSansW01-Regular;	
         font-size: 2.1vw;	
+        width: 53vw;
         line-height: 14px;
         border-left: 1px solid #BABABA;
         padding: 0.8vw;
